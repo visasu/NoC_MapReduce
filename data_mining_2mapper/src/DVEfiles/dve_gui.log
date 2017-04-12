@@ -1,0 +1,383 @@
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 20:03 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Releasing License for VC-SIM-RUNTIME-BASE at Sat Nov 26 20:03:38
+Releasing License for VCSRuntime_Net at Sat Nov 26 20:03:38
+Attempting to Re-Acquire License for VC-SIM-RUNTIME-BASE at Sat Nov 26 20:03:38
+Re-Acquired License for VC-SIM-RUNTIME-BASE at Sat Nov 26 20:03:38, continuing....
+Attempting to Re-Acquire License for VCSRuntime_Net at Sat Nov 26 20:03:38
+Re-Acquired License for VCSRuntime_Net at Sat Nov 26 20:03:38, continuing....
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ps
+CPU Time:      0.070 seconds;       Data structure size:   4.4Mb
+Sat Nov 26 20:03:50 2016
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 20:03 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 20:21 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+With selected criteria, DVE has found 'results at time 515000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 895000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 1115000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 1195000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 1425000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 1795000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 1885000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 2095000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 2365000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 2395000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 3025000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 3225000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 3665000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 4505000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+With selected criteria, DVE has found 'results at time 4655000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable'.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 20:50 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 20:54 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 20:55 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:00 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:10 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:23 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Error: [DVAP037] 
+Errors while sourcing the file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/.restartSimSession.tcl':
+
+ Line 139: [DVSG007] 
+Signal ' "CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit" "CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit" "CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits"' cannot be found..
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+dve> dump -add { CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+8
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4900000 ps
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:24 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:31 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:33 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:43 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+4900000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 4900000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:47 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 21:53 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:01 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:01 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:09 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+Error: [DVAP037] 
+Errors while sourcing the file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/.restartSimSession.tcl':
+
+ Line 121: [DVSG007] 
+Signal ' "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.enable" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.clk" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.rstn" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.tail" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.get_credit" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_get_credit" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.put_credits_mapper" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_put_credits_mapper" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.num_credits" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.flit_out_mapper" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.counter"' cannot be found.
+ Line 122: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key) not found.
+ Line 123: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key) not found.
+ Line 124: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value) not found.
+ Line 125: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value) not found.
+ Line 238: gui_list_select: List item(s) given by "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.flit_out_mapper"  were not found..
+---- Performing Reset ----
+320000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 320000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:11 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:13 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+320000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 320000 ps.
+sdb'
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.flit_in_mapper0[70:0]
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_1$out_ports_0_getFlit[70:0]
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:21 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 400000 ps
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:21 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Error: [DVAP037] 
+Errors while sourcing the file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/session.inter.vpd.tcl':
+
+ Line 304: [DVSG007] 
+Signal ' "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.enable" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.clk" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.rstn" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.tail" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.get_credit" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_get_credit" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.put_credits_mapper" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_put_credits_mapper" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.num_credits" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.flit_out_mapper" "CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.counter"' cannot be found.
+ Line 305: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key) not found.
+ Line 306: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key) not found.
+ Line 307: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value) not found.
+ Line 308: Specified signals (Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value) not found..
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:22 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+400000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 400000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:25 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+320000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 320000 ps.
+dve> dump -add { CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0 CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+2
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:36 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+320000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 320000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:38 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+320000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 320000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:40 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+320000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 320000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 22:44 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+$finish called from file "my_testbench.v", line 171.
+$finish at simulation time            656375000
+Simulation complete, time is 656375000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 23:01 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd' was opened successfully.
+Warning: Object CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 is not found. Ignored. 
+---- Performing Reset ----
+416790000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 416790000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 416790000 ps

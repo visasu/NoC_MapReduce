@@ -1,0 +1,68 @@
+{
+    "Modules": {
+        "module_outport_encoder": {},
+        "...MASTER...": {},
+        "_vcs_unit__2274222008": {},
+        "mkInputVCQueues": {},
+        "std": {},
+        "mkOutPortFIFO": {},
+        "mkInputArbiter": {},
+        "mkOutputArbiter": {},
+        "mkRouterInputArbitersStatic": {},
+        "mkRouterCore": {},
+        "CONNECT_testbench_sample": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "mkRouterOutputArbitersStatic": {},
+        "mkSepRouterAllocator": {},
+        "noc_input_controller": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "MapReduceReducer_unq1": {},
+        "MapReduceMapper_unq1": {}
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "out": "objs/amcQw_d.o",
+            "mod": "...MASTER...",
+            "bytes": 8810,
+            "mode": 4,
+            "checksum": 4294967295
+        },
+        "dxs94_d": {
+            "out": "dxs94_d.o",
+            "mod": "noc_input_controller",
+            "bytes": 28213,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.76/_15378_archive_1.a"
+        },
+        "ZhgcD_d": {
+            "out": "ZhgcD_d.o",
+            "mod": "CONNECT_testbench_sample",
+            "bytes": 710123,
+            "mode": 4,
+            "checksum": 4294967295,
+            "archive": "archive.76/_15378_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "dxs94_d.o",
+                    28213
+                ],
+                [
+                    "ZhgcD_d.o",
+                    710123
+                ]
+            ],
+            "archive": "archive.76/_15378_archive_1.a",
+            "size": 738336
+        }
+    ]
+}

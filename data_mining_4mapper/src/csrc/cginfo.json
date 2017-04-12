@@ -1,0 +1,321 @@
+{
+    "CompileProcesses": [
+        "cgproc.15378.json"
+    ],
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.36794399999999999,
+            "ru_stime_sec": 0.026995000000000002,
+            "ru_maxrss_kb": 60932,
+            "ru_nivcsw": 50,
+            "ru_minflt": 16128,
+            "ru_majflt": 0,
+            "ru_nvcsw": 183
+        },
+        "CodeGen(%)": 30.038028597505331,
+        "mop/quad": 2.6058234003439482,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.003999,
+            "ru_maxrss_kb": 16176,
+            "ru_nivcsw": 10,
+            "ru_minflt": 1883,
+            "ru_majflt": 0,
+            "ru_nvcsw": 6
+        },
+        "nMops": 43942,
+        "mopSpeed": 278156.17562161328,
+        "quadSpeed": 106744.06238922363,
+        "nQuads": 16863,
+        "totalObjSize": 854028,
+        "ru_self_end": {
+            "ru_utime_sec": 0.52592000000000005,
+            "ru_stime_sec": 0.037994,
+            "ru_maxrss_kb": 73472,
+            "ru_nivcsw": 70,
+            "ru_minflt": 19869,
+            "ru_majflt": 0,
+            "ru_nvcsw": 273
+        },
+        "Frontend(%)": 69.961971402494655,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.003999,
+            "ru_maxrss_kb": 16176,
+            "ru_nivcsw": 10,
+            "ru_minflt": 1883,
+            "ru_majflt": 0,
+            "ru_nvcsw": 6
+        },
+        "outputSizePerQuad": 50.0
+    },
+    "PEModules": [],
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 8810,
+                "out": "objs/amcQw_d.o",
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 4294967295
+            }
+        },
+        "mkInputVCQueues": {
+            "hzHRj_d": {
+                "bytes": 63020,
+                "out": "hzHRj_d.o",
+                "mod": "mkInputVCQueues",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "module_outport_encoder": {
+            "n4kEU_d": {
+                "bytes": 11428,
+                "out": "n4kEU_d.o",
+                "mod": "module_outport_encoder",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "_vcs_unit__2274222008": {
+            "dI8ID_d": {
+                "bytes": 12010,
+                "out": "dI8ID_d.o",
+                "mod": "_vcs_unit__2274222008",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "MapReduceReducer_unq1": {
+            "WtBnj_d": {
+                "bytes": 17006,
+                "out": "WtBnj_d.o",
+                "mod": "MapReduceReducer_unq1",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "MapReduceMapper_unq1": {
+            "JrLmP_d": {
+                "bytes": 25784,
+                "out": "JrLmP_d.o",
+                "mod": "MapReduceMapper_unq1",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 34979,
+                "out": "reYIK_d.o",
+                "mod": "std",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "mkSepRouterAllocator": {
+            "KN2Wm_d": {
+                "bytes": 479271,
+                "out": "KN2Wm_d.o",
+                "mod": "mkSepRouterAllocator",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "mkOutPortFIFO": {
+            "j5kNa_d": {
+                "bytes": 72211,
+                "out": "j5kNa_d.o",
+                "mod": "mkOutPortFIFO",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "mkRouterInputArbitersStatic": {
+            "N5WmI_d": {
+                "bytes": 19750,
+                "out": "N5WmI_d.o",
+                "mod": "mkRouterInputArbitersStatic",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "mkRouterCore": {
+            "cpc72_d": {
+                "bytes": 444927,
+                "out": "cpc72_d.o",
+                "mod": "mkRouterCore",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "mkInputArbiter": {
+            "KqJpy_d": {
+                "bytes": 50484,
+                "out": "KqJpy_d.o",
+                "mod": "mkInputArbiter",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "mkOutputArbiter": {
+            "Z783m_d": {
+                "bytes": 50485,
+                "out": "Z783m_d.o",
+                "mod": "mkOutputArbiter",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "noc_input_controller": {
+            "dxs94_d": {
+                "bytes": 22061,
+                "out": "dxs94_d.o",
+                "mod": "noc_input_controller",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_15378_archive_1.a"
+            }
+        },
+        "mkRouterOutputArbitersStatic": {
+            "puSjB_d": {
+                "bytes": 19751,
+                "out": "puSjB_d.o",
+                "mod": "mkRouterOutputArbitersStatic",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_prev_archive_1.a"
+            }
+        },
+        "CONNECT_testbench_sample": {
+            "ZhgcD_d": {
+                "bytes": 705049,
+                "out": "ZhgcD_d.o",
+                "mod": "CONNECT_testbench_sample",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.76/_15378_archive_1.a"
+            }
+        }
+    },
+    "NameTable": {
+        "mkInputVCQueues": [
+            "mkInputVCQueues",
+            "hzHRj",
+            "module"
+        ],
+        "_vcs_unit__2274222008": [
+            "_vcs_unit__2274222008",
+            "dI8ID",
+            "module"
+        ],
+        "module_outport_encoder": [
+            "module_outport_encoder",
+            "n4kEU",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "mkOutPortFIFO": [
+            "mkOutPortFIFO",
+            "j5kNa",
+            "module"
+        ],
+        "mkInputArbiter": [
+            "mkInputArbiter",
+            "KqJpy",
+            "module"
+        ],
+        "mkOutputArbiter": [
+            "mkOutputArbiter",
+            "Z783m",
+            "module"
+        ],
+        "mkRouterCore": [
+            "mkRouterCore",
+            "cpc72",
+            "module"
+        ],
+        "mkRouterInputArbitersStatic": [
+            "mkRouterInputArbitersStatic",
+            "N5WmI",
+            "module"
+        ],
+        "CONNECT_testbench_sample": [
+            "CONNECT_testbench_sample",
+            "ZhgcD",
+            "module"
+        ],
+        "mkRouterOutputArbitersStatic": [
+            "mkRouterOutputArbitersStatic",
+            "puSjB",
+            "module"
+        ],
+        "mkSepRouterAllocator": [
+            "mkSepRouterAllocator",
+            "KN2Wm",
+            "module"
+        ],
+        "noc_input_controller": [
+            "noc_input_controller",
+            "dxs94",
+            "module"
+        ],
+        "MapReduceMapper_unq1": [
+            "MapReduceMapper_unq1",
+            "JrLmP",
+            "module"
+        ],
+        "MapReduceReducer_unq1": [
+            "MapReduceReducer_unq1",
+            "WtBnj",
+            "module"
+        ]
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "noc_input_controller",
+        "CONNECT_testbench_sample"
+    ],
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 106882
+    },
+    "CurCompileUdps": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "cwd": "/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src",
+        "csrc": "csrc",
+        "csrc_abs": "/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src/csrc",
+        "daidir_abs": "/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src/simv.daidir",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.76",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}

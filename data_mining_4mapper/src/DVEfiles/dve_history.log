@@ -1,0 +1,138 @@
+# Preference setting overrides
+gui_set_pref_value -category {Data} -key {showValueAnnotation} -value {true}
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/session.inter.vpd.tcl} {gui_load_session -ignore_errors -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/session.inter.vpd.tcl}}
+gui_set_state_value -category Globals -key recent_tcl_scripts -value {{gui_dve_source -global /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/session.inter.vpd.tcl} {gui_dve_source -global /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/session.inter.vpd.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 869
+gui_set_state_value -category Layout -key child_console_size_y -value 176
+gui_set_state_value -category Layout -key child_data_coltype -value 91
+gui_set_state_value -category Layout -key child_data_colvalue -value 86
+gui_set_state_value -category Layout -key child_data_colvariable -value 194
+gui_set_state_value -category Layout -key child_data_size_x -value 379
+gui_set_state_value -category Layout -key child_data_size_y -value 522
+gui_set_state_value -category Layout -key child_driver_docknewline -value true
+gui_set_state_value -category Layout -key child_driver_size_x -value 1531
+gui_set_state_value -category Layout -key child_driver_size_y -value 177
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 374
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 480
+gui_set_state_value -category Layout -key child_hier_size_y -value 522
+gui_set_state_value -category Layout -key child_list_down -value 554
+gui_set_state_value -category Layout -key child_list_right -value 907
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 674
+gui_set_state_value -category Layout -key child_source_size_y -value 517
+gui_set_state_value -category Layout -key child_wave_colname -value 201
+gui_set_state_value -category Layout -key child_wave_colvalue -value 138
+gui_set_state_value -category Layout -key child_wave_left -value 343
+gui_set_state_value -category Layout -key child_wave_right -value 672
+gui_set_state_value -category Layout -key main_pos_x -value 117
+gui_set_state_value -category Layout -key main_pos_y -value 105
+gui_set_state_value -category Layout -key main_size_x -value 1647
+gui_set_state_value -category Layout -key main_size_y -value 902
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 1067
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 699
+gui_set_state_value -category Layout -key stand_list_top_pos_x -value 507
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 24
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 1569
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 851
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1025
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 684
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 597
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 76
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1617
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 888
+gui_set_state_value -category Data -key showAggregate -value false
+gui_set_state_value -category Data -key showAssertion -value false
+gui_set_state_value -category Data -key showBuffer -value false
+gui_set_state_value -category Data -key showConstant -value false
+gui_set_state_value -category Data -key showEvent -value false
+gui_set_state_value -category Data -key showInterface -value false
+gui_set_state_value -category Data -key showLinkage -value false
+gui_set_state_value -category Data -key showLowPower -value false
+gui_set_state_value -category Data -key showOthers -value false
+gui_set_state_value -category Data -key showParameter -value false
+gui_set_state_value -category Data -key showSignal -value false
+gui_set_state_value -category Data -key showUnit -value false
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key Find|m_pFindFrame|m_pFindCombo -value_type string -value EN_send_ports_0_getCredits
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_top_dock|&Edit|FindCombo -value_type string -value EN_send_ports_0_getCredits
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_top_dock|&Edit|FindCombo -value_type string -value EN_send_ports_0_getCredits
+gui_create_state_key -category Widget_History -key dlgDumpValues|m_Combo -value_type string -value {{CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0 CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic} {CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic} {CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic _vcs_unit__2274222008} {CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic} {CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic top_MapReduce}}
+gui_create_state_key -category Widget_History -key dlgSearchValue|m_ValueComboBox -value_type string -value {the\\\ \\\ \\\ \\\ \\ {"the     "} {"the     :} the}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_dve_source -global /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src/session.inter.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_list_select -id Wave.1 -selected  { {New Group}   }
+gui_list_action -id  Wave.1 {New Group}
+gui_list_select -id Wave.1 -selected  { EXP:flit_out.dest   }
+gui_sg_create  Group2 
+gui_list_add_group -id  Wave.1   {Group2} 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after Group2 {{EXP:flit_out.dest}}
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]} {{EXP:flit_out.dest}} 
+gui_sg_create  Group3 
+gui_list_add_group -id  Wave.1   {Group3} 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after Group3 {{EXP:flit_out.dest}}
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]} {{EXP:flit_out.dest}} 
+gui_list_select -id Wave.1 -selected  { Group2   }
+gui_sg_rename  Group2   mapper2
+gui_list_select -id Wave.1 -selected  { Group3   }
+gui_sg_rename  Group3   mapper3
+gui_list_select -id Wave.1 -selected  { mapper2   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper { {mapper2} } 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]} { {mapper1|mapper2} } 
+gui_list_select -id Wave.1 -selected  { mapper3   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after mapper2 { {mapper3} }
+gui_list_select -id Wave.1 -selected  { mapper2   }
+gui_list_set_insertion_bar -id Wave.1 -group mapper2 -pos in
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0 -current_item_type Scope  -selected  {  }
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src/session.inter.vpd.tcl
+gui_sim_continue  
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2   }
+gui_list_set_filter -id Data.1 -type Variable -value 0
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.enable   }
+gui_list_select -id Data.1 { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.task_id[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key[319:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value[63:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.clk  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.rstn  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.clear  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.tail  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.get_credit[1:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_get_credit  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.put_credits_mapper[1:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_put_credits_mapper  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.finish  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.read_request  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.write_request  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.int_key[319:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.int_value[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.read_addr[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.write_addr[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.flit_out_mapper[70:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.enable {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.task_id[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.key[319:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.value[63:0]} CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.clk CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.rstn CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.clear CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.tail {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.get_credit[1:0]} CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_get_credit {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.put_credits_mapper[1:0]} CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.en_put_credits_mapper CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.finish CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.read_request CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.write_request {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.int_key[319:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.int_value[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.read_addr[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.write_addr[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2.flit_out_mapper[70:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { mapper3   }
+gui_list_set_insertion_bar -id Wave.1 -group mapper3 -pos in
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 -current_item_type Scope  -selected  {  }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.enable   }
+gui_list_select -id Data.1 { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.task_id[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.key[319:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.value[63:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.clk  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.rstn  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.clear  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.tail  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.get_credit[1:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.en_get_credit  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.put_credits_mapper[1:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.en_put_credits_mapper  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.finish  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.read_request  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.write_request  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.int_key[319:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.int_value[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.read_addr[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.write_addr[31:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.flit_out_mapper[70:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.enable {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.task_id[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.key[319:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.value[63:0]} CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.clk CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.rstn CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.clear CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.tail {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.get_credit[1:0]} CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.en_get_credit {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.put_credits_mapper[1:0]} CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.en_put_credits_mapper CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.finish CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.read_request CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.write_request {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.int_key[319:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.int_value[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.read_addr[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.write_addr[31:0]} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_3.flit_out_mapper[70:0]} } -insertionbar
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 0 45473810
+gui_wv_zoom_timerange -id  Wave.1 0 7055077
+gui_wv_zoom_timerange -id  Wave.1 0 1560570
+gui_marker_move -id  Wave.1 C1 315000
+gui_zoom -window  Wave.1  -factor 0.5
+gui_marker_move -id  Wave.1 C1 505000
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src/session.inter.vpd.tcl
+#gui_exit
+

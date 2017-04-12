@@ -1,0 +1,163 @@
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 22:51 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 22:57 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+Releasing License for VC-SIM-RUNTIME-BASE at Wed Nov 23 22:57:58
+Releasing License for VCSRuntime_Net at Wed Nov 23 22:57:58
+Attempting to Re-Acquire License for VC-SIM-RUNTIME-BASE at Wed Nov 23 22:57:59
+Re-Acquired License for VC-SIM-RUNTIME-BASE at Wed Nov 23 22:57:59, continuing....
+Attempting to Re-Acquire License for VCSRuntime_Net at Wed Nov 23 22:57:59
+Re-Acquired License for VCSRuntime_Net at Wed Nov 23 22:57:59, continuing....
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 23:02 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 23:05 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+EXP:wordcompare EXP:wordcompare
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 23:09 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 23:12 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 23:16 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+You are here
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 24 00:03 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+You are here
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 24 00:04 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 24 00:21 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+---------------------------------------------
+
+The tool has just exited abnormally:
+
+
+Release = 'K-2015.09_Full64'  Architecture = 'amd64'  Program = 'DVE'
+
+'33100577 33137770 33139651 246713375418'
+
+---------------------------------------------
+=======================DVE Context and Call Stack=========================
+Command line: /usr/local/synopsys/vcs_2015.09//gui/dve/linux64/bin/dve.exe -full64 -ucliplatform=linux64 -toolargs "-ucligui -toolexe ./simv  -pid 23418" -toolin /tmp/vcs_20161124031732_23417_cfarnsw2..stdin -toolout /tmp/vcs_20161124031732_23417_cfarnsw2..stdout
+
+--- Stack trace follows:
+[New LWP 23596]
+[New LWP 23594]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+0x00000039714ac7fd in waitpid () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f15b9c4f700 (LWP 23594)):
+#0  0x000000397180ba5e in pthread_cond_timedwait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00000000028b36fb in ?? ()
+#2  0x00000000028b3b8e in QThread::msleep(unsigned long) ()
+#3  0x00000000010dcf16 in ag::dveXThread::run() ()
+#4  0x00000000028b388a in QThreadInstance::start(void*) ()
+#5  0x0000003971807aa1 in start_thread () from /lib64/libpthread.so.0
+#6  0x00000039714e8aad in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7f15b924e700 (LWP 23596)):
+#0  0x00000039714db68d in read () from /lib64/libc.so.6
+#1  0x0000003971471ca8 in _IO_new_file_underflow () from /lib64/libc.so.6
+#2  0x00000039714737ae in _IO_default_uflow_internal () from /lib64/libc.so.6
+#3  0x0000003971467e8a in _IO_getline_info_internal () from /lib64/libc.so.6
+#4  0x0000003971466ce9 in fgets () from /lib64/libc.so.6
+#5  0x00000000011f55f3 in ag::dveSmlSocket::run() ()
+#6  0x00000000028b388a in QThreadInstance::start(void*) ()
+#7  0x0000003971807aa1 in start_thread () from /lib64/libpthread.so.0
+#8  0x00000039714e8aad in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f15ba291800 (LWP 23432)):
+#0  0x00000039714ac7fd in waitpid () from /lib64/libc.so.6
+#1  0x000000397143e5c9 in do_system () from /lib64/libc.so.6
+#2  0x000000397143e900 in system () from /lib64/libc.so.6
+#3  0x00007f15bbd8cdf8 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e639d2928478c79b3f673f99203bcf8be64600612100082236bffb2007f1e0ef9 () from /usr/local/synopsys/vcs_2015.09//linux64/lib/liberrorinf.so
+#4  0x00007f15bbd8d38d in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e81c34e9ac4c8988ef4a6e067b3aa9271e9f15440f9e8f69ebc77e2fd65860faa () from /usr/local/synopsys/vcs_2015.09//linux64/lib/liberrorinf.so
+#5  0x00007f15bbd8e69b in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313efba706aab251478fa49e66610e453774633a6c152e7ef778f2202cda681f3d4e () from /usr/local/synopsys/vcs_2015.09//linux64/lib/liberrorinf.so
+#6  0x00007f15bbd87465 in SNPSle_d35ca1ff70d465c2b9b1a72eee90a506fdd009d3de3db1de () from /usr/local/synopsys/vcs_2015.09//linux64/lib/liberrorinf.so
+#7  0x0000000001f9a415 in ag::logErrorMessage(ag::errorType, QString const&, bool) ()
+#8  0x0000000001f9abc3 in ?? ()
+#9  0x0000003971435aba in exit () from /lib64/libc.so.6
+#10 0x000000000285f48c in ?? ()
+#11 0x00000039744447fe in _XIOError () from /usr/lib64/libX11.so.6
+#12 0x000000397444365d in _XEventsQueued () from /usr/lib64/libX11.so.6
+#13 0x00000039744342ed in XPending () from /usr/lib64/libX11.so.6
+#14 0x000000000287c64c in QEventLoop::processEvents(unsigned int) ()
+#15 0x000000000111e651 in ag::ovaEventLoop::processEvents(unsigned int) ()
+#16 0x00000000028ca039 in QEventLoop::enterLoop() ()
+#17 0x00000000028c9f9a in QEventLoop::exec() ()
+#18 0x000000000111dfbf in run_cci_event_loop ()
+#19 0x00000000010ddae4 in ag::ovaAppInst::enterEventLoop(int, char**) ()
+#20 0x0000000000de2c2f in main ()
+No context available
+==========================================================================

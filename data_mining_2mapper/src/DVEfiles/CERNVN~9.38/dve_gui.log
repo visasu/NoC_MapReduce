@@ -1,0 +1,702 @@
+Chronologic VCS simulator copyright 1991-2013
+Contains Synopsys proprietary information.
+Compiler version H-2013.06-SP1_Full64; Runtime version H-2013.06-SP1_Full64;  Nov 17 15:04 2016
+VCD+ Writer H-2013.06-SP1_Full64 Copyright (c) 1991-2013 by Synopsys Inc.
+The file '/nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/inter.vpd' was opened successfully.
+dve> dump -add { CONNECT_testbench_sample mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+1
+---- Performing Reset ----
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+Sending flit
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+$finish called from file "my_testbench.v", line 166.
+$finish at simulation time              2015000
+Simulation complete, time is 2015000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2015000 ps
+CPU Time:      0.190 seconds;       Data structure size:   4.8Mb
+Thu Nov 17 15:05:38 2016
+Chronologic VCS simulator copyright 1991-2013
+Contains Synopsys proprietary information.
+Compiler version H-2013.06-SP1_Full64; Runtime version H-2013.06-SP1_Full64;  Nov 17 15:05 2016
+VCD+ Writer H-2013.06-SP1_Full64 Copyright (c) 1991-2013 by Synopsys Inc.
+The file '/nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+Sending flit
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+$finish called from file "my_testbench.v", line 166.
+$finish at simulation time              2015000
+Simulation complete, time is 2015000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2015000 ps
+CPU Time:      0.340 seconds;       Data structure size:   4.8Mb
+Thu Nov 17 15:06:05 2016
+Error-[UCLI-STOP-UNABLE-SET-STOP-POINT] Unable to set breakpoint
+  The setting of line breakpoint in file 
+  /nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/mkInputArbiter.v
+  line 69 due to 'stop' command was not successful. 
+  Please verify that the 'stop' command arguments are valid and that the 
+  statement/enclosing subprogram at file/line is complete and used in the 
+  design.  If the problem persists, please contact vcs_support@synopsys.com
+Error-[UCLI-STOP-UNABLE-SET-STOP-POINT] Unable to set breakpoint
+  The setting of line breakpoint in file 
+  /nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/mkInputArbiter.v
+  line 68 due to 'stop' command was not successful. 
+  Please verify that the 'stop' command arguments are valid and that the 
+  statement/enclosing subprogram at file/line is complete and used in the 
+  design.  If the problem persists, please contact vcs_support@synopsys.com
+Error-[UCLI-STOP-UNABLE-SET-STOP-POINT] Unable to set breakpoint
+  The setting of line breakpoint in file 
+  /nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/mkInputArbiter.v
+  line 67 due to 'stop' command was not successful. 
+  Please verify that the 'stop' command arguments are valid and that the 
+  statement/enclosing subprogram at file/line is complete and used in the 
+  design.  If the problem persists, please contact vcs_support@synopsys.com
+Error-[UCLI-STOP-UNABLE-SET-STOP-POINT] Unable to set breakpoint
+  The setting of line breakpoint in file 
+  /nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/mkInputArbiter.v
+  line 53 due to 'stop' command was not successful. 
+  Please verify that the 'stop' command arguments are valid and that the 
+  statement/enclosing subprogram at file/line is complete and used in the 
+  design.  If the problem persists, please contact vcs_support@synopsys.com
+Chronologic VCS simulator copyright 1991-2013
+Contains Synopsys proprietary information.
+Compiler version H-2013.06-SP1_Full64; Runtime version H-2013.06-SP1_Full64;  Nov 17 15:25 2016
+VCD+ Writer H-2013.06-SP1_Full64 Copyright (c) 1991-2013 by Synopsys Inc.
+The file '/nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/inter.vpd' was opened successfully.
+Error: [DVAP037] 
+Errors while sourcing the file '/nfs/ch/disks/ch_umg_disk5523/cfarnswo/scripts/workspace/connect/src/.restartSimSession.tcl':
+
+ Line 104: [DVSG007] 
+Signal ' "CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw.data"' cannot be found..
+---- Performing Reset ----
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+Sending flit
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+data: xxxxxxxxxxxxxxxx
+$finish called from file "my_testbench.v", line 167.
+$finish at simulation time              2015000
+Simulation complete, time is 2015000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2015000 ps
+CPU Time:      0.210 seconds;       Data structure size:   4.8Mb
+Thu Nov 17 15:25:44 2016
+Error: [RPC-INTERNAL] RPC internal error
+  RPC internal error in function RpcClient::endGroup:
+  Failed to exit group mode.
+  Please contact vcs_support@synopsys.com or call 1-800-VERILOG.
+*** FATAL: Simulation stopped due to an error (please see above in the log for more details)
+The simulation cannot be continued. The current simulation state can be observed in DVE/UCLI.
+---------------------------------------------
+
+Simulation has just terminated due to a severe internal error:
+
+
+Release = 'H-2013.06-SP1_Full64'  Architecture = 'suse64'  Program = 'DVE'
+
+'33319484 33344960 30803556 41746092 30802753 41749998 41756610 41756779 30805112 30825100 30825486 30825680 31154793 31218067 31218256 31234319 31234500 29362661 25859425 25877710 23590878 23562175 23572714 23574282 26371151 27680065 43521103 43521322 44325579 25518988 44469681 44471326 44328638 25519920 43512191 43512329 43698947 43195501 43196426 33857304 33649377 42884473 42879521 42937135 17279609 43261145 43261018 17278001 17003259 14550474 140737298046006'
+
+---------------------------------------------
+===============================DVE Context================================
+Command line: /p/com/eda/synopsys/vcsmx/H-2013.06-SP1/gui/dve/suse64/bin/dve.exe -full64 -ucliplatform=suse64 -toolargs "-ucligui -toolexe simv  -pid 152157" -toolin /tmp/vcs_20161117220435_152156_cfarnswo..stdin -toolout /tmp/vcs_20161117220435_152156_cfarnswo..stdout
+==========================================================================

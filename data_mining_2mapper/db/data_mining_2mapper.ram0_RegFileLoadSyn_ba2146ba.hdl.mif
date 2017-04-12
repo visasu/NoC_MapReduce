@@ -1,0 +1,38 @@
+-- begin_signature
+-- RegFileLoadSyn(file
+-- "mesh_16RTs_2VCs_8BD_64DW_SepIFRoundRobinAlloc_4RTsPerRow_4RTsPerCol_routing_4.hex"
+-- addr_width
+-- 32'b00000000000000000000000000000100
+-- data_width
+-- 32'b00000000000000000000000000000011
+-- lo
+-- 32'b00000000000000000000000000000000
+-- hi
+-- 32'b00000000000000000000000000001111
+-- binary
+-- 32'b00000000000000000000000000000000)
+-- end_signature
+WIDTH=3;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	011;
+	14 :	011;
+	13 :	011;
+	12 :	100;
+	11 :	011;
+	10 :	011;
+	9 :	011;
+	8 :	100;
+	7 :	011;
+	6 :	011;
+	5 :	011;
+	4 :	000;
+	3 :	011;
+	2 :	011;
+	1 :	011;
+	0 :	010;
+END;

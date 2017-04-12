@@ -1,0 +1,433 @@
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 22:51 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 23 22:57 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+Releasing License for VC-SIM-RUNTIME-BASE at Wed Nov 23 22:57:58
+Releasing License for VCSRuntime_Net at Wed Nov 23 22:57:58
+Attempting to Re-Acquire License for VC-SIM-RUNTIME-BASE at Wed Nov 23 22:57:59
+Re-Acquired License for VC-SIM-RUNTIME-BASE at Wed Nov 23 22:57:59, continuing....
+Attempting to Re-Acquire License for VCSRuntime_Net at Wed Nov 23 22:57:59
+Re-Acquired License for VCSRuntime_Net at Wed Nov 23 22:57:59, continuing....
+---- Performing Reset ----
+Dynamic asserReleasing License for VC-SIM-RUNTIME-BASE at Fri Nov 25 20:03:21
+Releasing License for VCSRuntime_Net at Fri Nov 25 20:03:21
+Attempting to Re-Acquire License for VC-SIM-RUNTIME-BASE at Fri Nov 25 20:03:21
+Re-Acquired License for VC-SIM-RUNTIME-BASE at Fri Nov 25 20:03:21, continuing....
+Attempting to Re-Acquire License for VCSRuntime_Net at Fri Nov 25 20:03:21
+Re-Acquired License for VCSRuntime_Net at Fri Nov 25 20:03:21, continuing....
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 20:37 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+5
+6
+7
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 20:42 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 20:51 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 20:55 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 310000 ps
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 20:56 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 310000 ps
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 20:57 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 21:00 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 21:04 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 21:05 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 21:07 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 25 21:13 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 310000 ps.
+Warning: [DVSW307] 
+Could not find any driver for signal: 'CONNECT_testbench_sample.i_top_level.EN_send_ports_0_getCredits'.
+Warning: [DVSW315] 
+Could not find any load for signal: 'CONNECT_testbench_sample.i_top_level.EN_send_ports_0_getCredits'.
+Warning: [AD-MDTS] Active drivers analysis is not possible
+  Missing dump for signal 
+  'CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits'
+  at time '155000'.
+  Active driver analysis will not be done.
+  Please dump this signal if you want active drivers analysis to be performed.
+sdb'
+1 driver (1 possibly active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+1 load found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+1 load found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+1 load found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+Warning: [AD-MDTS] Active drivers analysis is not possible
+  Missing dump for signal 
+  'CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits'
+  at time '155000'.
+  Active driver analysis will not be done.
+  Please dump this signal if you want active drivers analysis to be performed.
+1 driver (1 possibly active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+Warning: [DVMF026] 
+The bottom has been reached.
+Continuing to search from top.
+Warning: [DVMF026] 
+The bottom has been reached.
+Continuing to search from top.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 310000 ps
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 00:37 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+$finish called from file "my_testbench.v", line 171.
+$finish at simulation time              2015000
+Simulation complete, time is 2015000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 00:41 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+$finish called from file "my_testbench.v", line 171.
+$finish at simulation time              2015000
+Simulation complete, time is 2015000 ps.
+With selected criteria, DVE has found 'results at time 260000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.clk
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.clk'.
+With selected criteria, DVE has found 'results at time 265000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]
+    EXP:wordcompare
+    CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.clk
+    CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.int_key[319:0]
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.clk'.
+With selected criteria, DVE has found 'results at time 335000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.counter[31:0]'.
+With selected criteria, DVE has found 'results at time 515000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]'.
+With selected criteria, DVE has found 'results at time 865000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]'.
+With selected criteria, DVE has found 'results at time 1075000
+    CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]'.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 00:43 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 8670000 ps.
+dve> dump -add { CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+9
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8670000 ps
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 00:48 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 8670000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 00:50 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 8670000 ps.
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.int_value[31:0]
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 00:53 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 8670000 ps.
+Warning: [DVSW307] 
+Could not find any driver for signal: 'CONNECT_testbench_sample.flit_out[0:15][70:0]'.
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core$in_ports_0_getCredits[1:0]
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outport_encoder_76_BIT_3_77_AND_IF_flitBuffers_ETC___d654
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.fifo_out__h38368
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]
+2 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]
+2 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]
+1 load found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]
+1 load found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]
+4 drivers (1 active statement, 1 possibly active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_1_putFlit_flit_in[70:0]
+2 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]
+2 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw.mem from time 
+  1805000
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_in[63:0]
+Warning: [DVSW002] 
+Value of 'mem[0:RAM_DEPTH-1]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails[0:RAM_DEPTH-1]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+Warning: [DVSW002] 
+Value of 'mem_tails[address]' might not be shown because the array size exceeds the limit of '4096'.
+You can either use memory viewer (recommended) or change this limit in the preference.
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_IN[3:0]
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_0_putFlit_flit_in[70:0]
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+3 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+3 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+3 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+3 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+Error-[UCLI-STOP-UNABLE-SET-STOP-POINT] Unable to set breakpoint
+  The setting of line breakpoint in file 
+  /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/mkInputVCQueues.v
+  line 387 due to 'stop' command was not successful. 
+  Please verify that the 'stop' command arguments are valid and that the 
+  statement/enclosing subprogram at file/line is complete and used in the 
+  design.  Also verify that the statement on which the BP is being added is in
+  a module compiled with line debug capability.  Please recompile using the 
+  '-debug_access<+options>' switch and incremental options as required.  
+  Recommended options are '-debug_access' for post-process debug, 
+  '-debug_access+classdbg' for testbench debug, and '-debug_access+all' for 
+  all debug capabilities.  Refer the VCS user guide for more granular options 
+  for debug control under the switch '-debug_access' and refer to 
+  '-debug_region' for region control.
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+3 drivers (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full_1
+1 driver (1 active statement) found for signal: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 01:16 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+8670000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 8670000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 01:48 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+8670000 : Dynamic assertion failed: "MultiFIFOMem.bsv", line 156, column 38
+Enqueing to full FIFO in MultiFIFOMem!
+Simulation complete, time is 8670000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 01:53 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+$finish called from file "my_testbench.v", line 171.
+$finish at simulation time             10015000
+Simulation complete, time is 10015000 ps.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09_Full64; Runtime version K-2015.09_Full64;  Nov 26 01:55 2016
+VCD+ Writer K-2015.09_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/inter.vpd' was opened successfully.
+---- Performing Reset ----
+$finish called from file "my_testbench.v", line 171.
+$finish at simulation time            656375000
+Simulation complete, time is 656375000 ps.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW010] 
+Seek hit end of values with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+Warning: [DVWW009] 
+Seek hit time zero with no more matches.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 656375000 ps
+CPU Time:      7.580 seconds;       Data structure size:   4.4Mb
+Sat Nov 26 02:01:49 2016
+Warning: [DVDB803] 
+Simulation is terminated, requested information is not available anymore.
+Please restart the simulation and repeat the last command.
+Warning: [DVDB803] 
+Simulation is terminated, requested information is not available anymore.
+Please restart the simulation and repeat the last command.
+.tcl

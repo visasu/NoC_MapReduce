@@ -1,0 +1,316 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "mkRouterCore": {
+            "cpc72_d": {
+                "bytes": 444927,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkRouterCore",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "cpc72_d.o"
+            }
+        },
+        "mkInputVCQueues": {
+            "hzHRj_d": {
+                "bytes": 63020,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkInputVCQueues",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "hzHRj_d.o"
+            }
+        },
+        "MapReduceReducer_unq1": {
+            "WtBnj_d": {
+                "bytes": 17006,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "MapReduceReducer_unq1",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "WtBnj_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 8810,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "mkInputArbiter": {
+            "KqJpy_d": {
+                "bytes": 50484,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkInputArbiter",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "KqJpy_d.o"
+            }
+        },
+        "module_outport_encoder": {
+            "n4kEU_d": {
+                "bytes": 11428,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "module_outport_encoder",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "n4kEU_d.o"
+            }
+        },
+        "mkOutPortFIFO": {
+            "j5kNa_d": {
+                "bytes": 72211,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkOutPortFIFO",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "j5kNa_d.o"
+            }
+        },
+        "MapReduceMapper_unq1": {
+            "JrLmP_d": {
+                "bytes": 25784,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "MapReduceMapper_unq1",
+                "out": "JrLmP_d.o",
+                "archive": "archive.75/_prev_archive_1.a"
+            }
+        },
+        "CONNECT_testbench_sample": {
+            "ZhgcD_d": {
+                "bytes": 705049,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "CONNECT_testbench_sample",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "ZhgcD_d.o"
+            }
+        },
+        "mkOutputArbiter": {
+            "Z783m_d": {
+                "bytes": 50485,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkOutputArbiter",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "Z783m_d.o"
+            }
+        },
+        "mkSepRouterAllocator": {
+            "KN2Wm_d": {
+                "bytes": 479271,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkSepRouterAllocator",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "KN2Wm_d.o"
+            }
+        },
+        "_vcs_unit__2274222008": {
+            "dI8ID_d": {
+                "bytes": 12010,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "_vcs_unit__2274222008",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "dI8ID_d.o"
+            }
+        },
+        "mkRouterInputArbitersStatic": {
+            "N5WmI_d": {
+                "bytes": 19750,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkRouterInputArbitersStatic",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "N5WmI_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 34979,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "std",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "noc_input_controller": {
+            "dxs94_d": {
+                "bytes": 22061,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "noc_input_controller",
+                "out": "dxs94_d.o",
+                "archive": "archive.75/_prev_archive_1.a"
+            }
+        },
+        "mkRouterOutputArbitersStatic": {
+            "puSjB_d": {
+                "bytes": 19751,
+                "checksum": 4294967295,
+                "mode": 4,
+                "mod": "mkRouterOutputArbitersStatic",
+                "archive": "archive.75/_prev_archive_1.a",
+                "out": "puSjB_d.o"
+            }
+        }
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_minflt": 16100,
+            "ru_utime_sec": 0.34694700000000001,
+            "ru_stime_sec": 0.023996,
+            "ru_nvcsw": 178,
+            "ru_maxrss_kb": 60844,
+            "ru_majflt": 0,
+            "ru_nivcsw": 46
+        },
+        "ru_childs_cgstart": {
+            "ru_minflt": 1884,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.003999,
+            "ru_nvcsw": 6,
+            "ru_maxrss_kb": 16164,
+            "ru_majflt": 0,
+            "ru_nivcsw": 10
+        },
+        "ru_childs_end": {
+            "ru_minflt": 1884,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.003999,
+            "ru_nvcsw": 6,
+            "ru_maxrss_kb": 16164,
+            "ru_majflt": 0,
+            "ru_nivcsw": 10
+        },
+        "outputSizePerQuad": 28883.0,
+        "nMops": 7,
+        "nQuads": 4,
+        "totalObjSize": 115532,
+        "ru_self_end": {
+            "ru_minflt": 17303,
+            "ru_utime_sec": 0.35194599999999998,
+            "ru_stime_sec": 0.026995000000000002,
+            "ru_nvcsw": 220,
+            "ru_maxrss_kb": 63740,
+            "ru_majflt": 0,
+            "ru_nivcsw": 48
+        },
+        "Frontend(%)": 98.579611644968267,
+        "CodeGen(%)": 1.4203883550317309
+    },
+    "CurCompileUdps": {},
+    "NameTable": {
+        "_vcs_unit__2274222008": [
+            "_vcs_unit__2274222008",
+            "dI8ID",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "mkRouterInputArbitersStatic": [
+            "mkRouterInputArbitersStatic",
+            "N5WmI",
+            "module"
+        ],
+        "CONNECT_testbench_sample": [
+            "CONNECT_testbench_sample",
+            "ZhgcD",
+            "module"
+        ],
+        "mkOutputArbiter": [
+            "mkOutputArbiter",
+            "Z783m",
+            "module"
+        ],
+        "mkSepRouterAllocator": [
+            "mkSepRouterAllocator",
+            "KN2Wm",
+            "module"
+        ],
+        "mkInputArbiter": [
+            "mkInputArbiter",
+            "KqJpy",
+            "module"
+        ],
+        "MapReduceMapper_unq1": [
+            "MapReduceMapper_unq1",
+            "JrLmP",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "mkOutPortFIFO": [
+            "mkOutPortFIFO",
+            "j5kNa",
+            "module"
+        ],
+        "module_outport_encoder": [
+            "module_outport_encoder",
+            "n4kEU",
+            "module"
+        ],
+        "mkInputVCQueues": [
+            "mkInputVCQueues",
+            "hzHRj",
+            "module"
+        ],
+        "MapReduceReducer_unq1": [
+            "MapReduceReducer_unq1",
+            "WtBnj",
+            "module"
+        ],
+        "mkRouterCore": [
+            "mkRouterCore",
+            "cpc72",
+            "module"
+        ],
+        "mkRouterOutputArbitersStatic": [
+            "mkRouterOutputArbitersStatic",
+            "puSjB",
+            "module"
+        ],
+        "noc_input_controller": [
+            "noc_input_controller",
+            "dxs94",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 106722
+    },
+    "CompileProcesses": [
+        "cgproc.12560.json"
+    ],
+    "CurCompileModules": [
+        "...MASTER..."
+    ],
+    "Misc": {
+        "daidir_abs": "/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src/simv.daidir",
+        "cwd": "/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src",
+        "csrc": "csrc",
+        "archive_dir": "archive.75",
+        "csrc_abs": "/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_4mapper/src/csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileStatus": "Successful"
+}

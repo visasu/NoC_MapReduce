@@ -1,0 +1,68 @@
+{
+    "Modules": {
+        "mkRouterInputArbitersStatic": {},
+        "std": {},
+        "mkRouterCore": {},
+        "mkRouterOutputArbitersStatic": {},
+        "...MASTER...": {},
+        "mkOutPortFIFO": {},
+        "_vcs_unit__2274222008": {},
+        "noc_input_controller": {
+            "Compiled Times": 1,
+            "Compiled": "Yes"
+        },
+        "mkInputArbiter": {},
+        "mkInputVCQueues": {},
+        "mkOutputArbiter": {},
+        "MapReduceReducer_unq1": {},
+        "mkSepRouterAllocator": {},
+        "MapReduceMapper_unq1": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        },
+        "module_outport_encoder": {},
+        "CONNECT_testbench_sample": {}
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "mode": 4,
+            "out": "objs/amcQw_d.o",
+            "bytes": 8810,
+            "checksum": 4294967295
+        },
+        "dxs94_d": {
+            "mod": "noc_input_controller",
+            "mode": 4,
+            "out": "dxs94_d.o",
+            "bytes": 22061,
+            "checksum": 4294967295,
+            "archive": "archive.74/_11688_archive_1.a"
+        },
+        "JrLmP_d": {
+            "mod": "MapReduceMapper_unq1",
+            "mode": 4,
+            "out": "JrLmP_d.o",
+            "bytes": 25784,
+            "checksum": 4294967295,
+            "archive": "archive.74/_11688_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.74/_11688_archive_1.a",
+            "size": 47845,
+            "objects": [
+                [
+                    "dxs94_d.o",
+                    22061
+                ],
+                [
+                    "JrLmP_d.o",
+                    25784
+                ]
+            ]
+        }
+    ]
+}

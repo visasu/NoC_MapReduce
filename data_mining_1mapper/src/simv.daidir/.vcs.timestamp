@@ -1,0 +1,128 @@
+0 
+34
++itf+/usr/local/synopsys/vcs_2015.09/linux64/lib/vcsdp.tab
++memcbk
++v2k
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/local/synopsys/vcs_2015.09/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/local/synopsys/vcs_2015.09/linux64/lib/libvirsim.so /usr/local/synopsys/vcs_2015.09/linux64/lib/liberrorinf.so /usr/local/synopsys/vcs_2015.09/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/usr/local/synopsys/vcs_2015.09/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/local/synopsys/vcs_2015.09/include
+-Xpiyushb1=0x80
+-debug_access+all+dmptf+bc
+-debug_access+class+driver+dmptf+bc
+-debug_region=cell+lib
+-debug_region=cell+lib
+-f files.f
+-full64
+-gen_obj
+-lca
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/usr/local/synopsys/vcs_2015.09/linux64/bin/vcs1
+58
+sysc_uni_pwd=/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src
+XTERM_VERSION=X.Org 6.8.99.903(253)
+XTERM_SHELL=/bin/tcsh
+XTERM_LOCALE=en_US.UTF-8
+VNCDESKTOP=eecad32.eas.asu.edu:1 (cfarnsw2)
+VMR_MODE_FLAG=64
+VENDOR=unknown
+VCS_MODE_FLAG=64
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/usr/local/synopsys/vcs_2015.09/
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/local/synopsys/vcs_2015.09/linux64
+SYSFONT=latarcyrheb-sun16
+SYNOPSYS=/usr/local/synopsys/starrc_2015.06/linux64/syn/
+STROOT=/usr/local/synopsys/sentaurus_2015.06
+SSH_TTY=/dev/pts/2
+SSH_CONNECTION=172.31.27.221 51997 129.219.27.98 22
+SSH_CLIENT=172.31.27.221 51997 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=27020@enlicense9.eas.asu.edu
+SIM_ENGINE=synopsys
+SFLM_SERVERS=enlicense7.eas.asu.edu
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=sslvpn.172-31-27-221.asu.edu
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+OSTYPE=linux
+ORBIT_SOCKETDIR=/tmp/orbit-cfarnsw2
+MMSIM=/usr/local/cadence/MMSIM141
+MGLS_LICENSE_FILE=1717@enlicense6.eas.asu.edu
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=FILE:/tmp/krb5cc_581943_bK90Ay
+KDEDIRS=/usr
+IC=/usr/local/cadence/IC615
+HPEESOF_DIR=/usr/local/agilent/ADS2014_01
+HOSTTYPE=x86_64-linux
+G_BROKEN_FILENAMES=1
+GROUP=cfarnsw2
+CVS_RSH=ssh
+COLORTERM=gnome-terminal
+COBBLER_SERVER=satellite-dept.asu.edu
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=addCWD
+CDS_LIC_FILE=5280@enlicense6.eas.asu.edu
+CDS_INST_DIR=/usr/local/cadence
+CDS_IBM=/usr/local/cadence/IC615
+CDS=/usr/local/cadence
+CDK_DIR=/usr/local/cadence/NCSU/ncsu-cdk-1.6.0.beta
+ANSOFTHOME=/usr/local/AnsysEM/AnsysEM15.0
+AGILEESOFD_LICENSE_FILE=28000@enlicense7.eas.asu.edu
+ADS_DIR=/usr/local/agilent/ADS2014_01
+0
+25
+1480150062 MapReduceReducer_unq1.v
+1480149999 MapReduceMapper_unq1.v
+1480150483 my_testbench.v
+1480146599 noc_input_controller.v
+1480131434 custom_params.v
+1480150377 top_level.v
+1479597277 sram.v
+1479597275 module_outport_encoder.v
+1479597275 module_gen_grant_carry.v
+1479597278 mkSepRouterAllocator.v
+1479597274 mkRouterOutputArbitersStatic.v
+1479597278 mkRouterOutputArbitersRoundRobin.v
+1479597274 mkRouterInputArbitersStatic.v
+1479597276 mkRouterInputArbitersRoundRobin.v
+1479597275 mkRouterCore.v
+1479597274 mkOutputArbiter.v
+1479597275 mkOutPortFIFO.v
+1479597278 mkNetwork.v
+1480148024 mkInputVCQueues.v
+1479597278 mkInputArbiter.v
+1479597275 connect_parameters.v
+1479597275 RegFile_1port.v
+1479597275 RegFileLoadSyn.v
+1479956673 files.f
+1440562444 /usr/local/synopsys/vcs_2015.09/linux64/lib/vcsdp.tab
+4
+0 
+1440563255 /usr/local/synopsys/vcs_2015.09/linux64/lib/libvirsim.so
+1440562843 /usr/local/synopsys/vcs_2015.09/linux64/lib/liberrorinf.so
+1440562824 /usr/local/synopsys/vcs_2015.09/linux64/lib/libsnpsmalloc.so
+1480150491 simv.daidir

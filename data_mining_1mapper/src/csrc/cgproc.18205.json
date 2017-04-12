@@ -1,0 +1,52 @@
+{
+    "reusePaths": {},
+    "Modules": {
+        "noc_input_controller": {},
+        "...MASTER...": {},
+        "mkOutputArbiter": {},
+        "mkRouterOutputArbitersStatic": {},
+        "_vcs_unit__2274222008": {},
+        "std": {},
+        "mkInputArbiter": {},
+        "mkOutPortFIFO": {},
+        "mkInputVCQueues": {},
+        "mkRouterCore": {},
+        "module_outport_encoder": {},
+        "mkSepRouterAllocator": {},
+        "mkRouterInputArbitersStatic": {},
+        "CONNECT_testbench_sample": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "MapReduceMapper_unq1": {}
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "checksum": 4294967295,
+            "mode": 4,
+            "bytes": 8810,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o"
+        },
+        "ZhgcD_d": {
+            "checksum": 4294967295,
+            "mode": 4,
+            "bytes": 710784,
+            "mod": "CONNECT_testbench_sample",
+            "archive": "archive.40/_18205_archive_1.a",
+            "out": "ZhgcD_d.o"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.40/_18205_archive_1.a",
+            "objects": [
+                [
+                    "ZhgcD_d.o",
+                    710784
+                ]
+            ],
+            "size": 710784
+        }
+    ]
+}

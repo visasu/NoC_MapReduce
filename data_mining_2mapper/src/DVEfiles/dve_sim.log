@@ -1,0 +1,252 @@
+23:01:11    7236 --> ...                                              [tcl] ucliGUI::start /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/simv -ucligui 
+23:01:11    7237 --> ...                                                  [tcl] set ucliGUI::state
+23:01:11    7238 --> ...                                                      [tcl] gui_update_simulator_buttons
+23:01:12    7239 --> ...                                                          [tcl] set ucliGUI::state
+23:01:12    7240 --> ...                                                              [tcl] ucliCore::getToolPID
+23:01:12    7241 --> ...                                                                  [tcl] synopsys::env hasTB
+23:01:12    7242 --> ...                                                                      [tcl] trigger_hier_stack_context_switch 0
+23:01:12    7243 --> ...                                                                          [tcl] synUtils::setDVEInitPhase 1
+23:01:12    7244 --> ...                                                                              [tcl] gui_get_env SIMSETUP::SIMVPD
+23:01:12    7245 --> ...                                                                                  [tcl] synopsys::dump -type VPD -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/inter.vpd -locking
+23:01:12    7246 --> ...                                                                                      [tcl] synopsys::dump -autoflush on -fid VPD28
+23:01:12    7247 --> ...                                                                                          [tcl] set ::dve_fid VPD28
+23:01:12    7248 --> ...                                                                                              [tcl] synUtils::setDVEInitPhase 0
+23:01:12    7249 --> ...                                                                                                  [tcl] ucliCore::getToolPID
+23:01:12    7250 --> ...  [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnptY7kvB
+23:01:12    7251 --> ...      [tcl] synUtils::sendTool -active {_icl_start_rpc -version "K-2015.09_Full64" -sync_file /tmp/vcs_dve_rpc.cfarnsw2.11975}
+23:01:12    7252 --> ...          [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.cfarnsw2.11975}
+23:01:12    7253 --> ...              [tcl] config endofsim noexit
+23:01:12    7254 --> ...                  [tcl] config onfail enable all
+23:01:12    7255 --> ...                      [tcl] config syscaddplainmembers
+23:01:12    7256 --> ...                          [tcl] config syscaddsourcenames
+23:01:12    7257 --> ...                              [tcl] config syscaddstructtypes
+23:01:12    7258 --> ...                                  [tcl] synopsys::listing -disable
+23:01:12    7259 --> ...                                      [tcl] # Begin_DVE_Session_Save_Info
+23:01:12    7260 --> ...                                          [tcl] # DVE restart session
+23:01:12    7261 --> ...                                              [tcl] # Saved on Sat Nov 26 23:01:11 2016
+23:01:12    7262 --> ...                                                  [tcl] # Designs open: 1
+23:01:12    7263 --> ...                                                      [tcl] #   Sim: /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/simv
+23:01:12    7264 --> ...                                                          [tcl] # Toplevel windows open: 2
+23:01:12    7265 --> ...                                                              [tcl] # 	TopLevel.1
+23:01:12    7266 --> ...                                                                  [tcl] # 	TopLevel.2
+23:01:12    7267 --> ...                                                                      [tcl] #   Source.1: CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_8.flitBuffers_3
+23:01:12    7268 --> ...                                                                          [tcl] #   Wave.1: 38 signals
+23:01:12    7269 --> ...                                                                              [tcl] #   Group count = 5
+23:01:12    7270 --> ...                                                                                  [tcl] #   Group mapper0 signal count = 13
+23:01:12    7271 --> ...                                                                                      [tcl] #   Group mapper1 signal count = 12
+23:01:12    7272 --> ...                                                                                          [tcl] #   Group reducer signal count = 8
+23:01:12    7273 --> ...                                                                                              [tcl] #   Group input_arb signal count = 5
+23:01:12    7274 --> ...                                                                                                  [tcl] #   Group Group1 signal count = 1
+23:01:12    7275 --> ...  [tcl] # End_DVE_Session_Save_Info
+23:01:12    7276 --> ...      [tcl] # DVE version: K-2015.09_Full64
+23:01:12    7277 --> ...          [tcl] # DVE build date: Aug 25 2015 21:36:02
+23:01:12    7278 --> ...              [tcl] #<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+23:01:12    7279 --> ...                  [tcl] gui_set_loading_session_type Restart
+23:01:12    7280 --> ...                      [tcl] gui_continuetime_set
+23:01:12    7281 --> ...                          [tcl] gui_clear_window -type Wave
+23:01:12    7282 --> ...                              [tcl] gui_clear_window -type List
+23:01:12    7283 --> ...                                  [tcl] # Application preferences
+23:01:12    7284 --> ...                                      [tcl] gui_set_pref_value -key app_default_font -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+23:01:12    7285 --> ...                                          [tcl] gui_src_preferences -tabstop 8 -maxbits 24 -windownumber 1
+23:01:12    7286 --> ...                                              [tcl] #<WindowLayout>
+23:01:12    7287 --> ...                                                  [tcl] # DVE top-level session
+23:01:12    7288 --> ...                                                      [tcl] # Create and position top-level window: TopLevel.1
+23:01:12    7289 --> ...                                                          [tcl] set TopLevel.1 TopLevel.1
+23:01:12    7290 --> ...                                                              [tcl] # Docked window settings
+23:01:12    7291 --> ...                                                                  [tcl] set HSPane.1 HSPane.1
+23:01:12    7292 --> ...                                                                      [tcl] set Hier.1 Hier.1
+23:01:12    7293 --> ...                                                                          [tcl] set DLPane.1 DLPane.1
+23:01:12    7294 --> ...                                                                              [tcl] set Data.1 Data.1
+23:01:12    7295 --> ...                                                                                  [tcl] set Console.1 Console.1
+23:01:12    7296 --> ...                                                                                      [tcl] set DriverLoad.1 DriverLoad.1
+23:01:12    7297 --> ...                                                                                          [tcl] gui_sync_global -id ${TopLevel.1} -option true
+23:01:12    7298 --> ...                                                                                              [tcl] # MDI window settings
+23:01:12    7299 --> ...                                                                                                  [tcl] set Source.1 Source.1
+23:01:12    7300 --> ...  [tcl] gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+23:01:12    7301 --> ...      [tcl] # End MDI window settings
+23:01:12    7302 --> ...          [tcl] # Create and position top-level window: TopLevel.2
+23:01:12    7303 --> ...              [tcl] set TopLevel.2 TopLevel.2
+23:01:12    7304 --> ...                  [tcl] # Docked window settings
+23:01:12    7305 --> ...                      [tcl] gui_sync_global -id ${TopLevel.2} -option true
+23:01:12    7306 --> ...                          [tcl] # MDI window settings
+23:01:12    7307 --> ...                              [tcl] set Wave.1 Wave.1
+23:01:12    7308 --> ...                                  [tcl] gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 343} {child_wave_right 672} {child_wave_colname 201} {child_wave_colvalue 138} {child_wave_col1 0} {child_wave_col2 1}}
+23:01:12    7309 --> ...                                      [tcl] # End MDI window settings
+23:01:12    7310 --> ...                                          [tcl] #</WindowLayout>
+23:01:12    7311 --> ...                                              [tcl] #<Database>
+23:01:12    7312 --> ...                                                  [tcl] gui_set_precision 1ps
+23:01:12    7313 --> ...                                                      [tcl] gui_set_time_units 1ps
+23:01:12    7314 --> ...                                                          [tcl] dump -add { CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_2 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+23:01:12    7315 --> ...                                                              [tcl] dump -add { CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0 CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+23:01:13    7316 --> ...                                                                  [tcl] #</Database>
+23:01:13    7317 --> ...                                                                      [tcl] # DVE Global setting session:
+23:01:13    7318 --> ...                                                                          [tcl] # Global: Breakpoints
+23:01:13    7319 --> ...                                                                              [tcl] stop -disable -file {/afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/mkInputVCQueues.v}  -line {391}
+23:01:13    7320 --> ...                                                                                  [tcl] synopsys::watch -raw
+23:01:13    7321 --> ...                                                                                      [tcl] gui_postwatch -bpid 1  -line 391 -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/mkInputVCQueues.v -createdisable
+23:01:13    7322 --> ...                                                                                          [tcl] # Global: Bus
+23:01:13    7323 --> ...                                                                                              [tcl] # Global: Expressions
+23:01:13    7324 --> ...                                                                                                  [tcl] gui_expr_create {flit_out[68:65]}  -name EXP:flit_out.dest -type Verilog -scope CONNECT_testbench_sample.i_top_level.i_noc_input_controller
+23:01:13    7325 --> ...  [tcl] # Global: Signal Time Shift
+23:01:13    7326 --> ...      [tcl] # Global: Signal Compare
+23:01:13    7327 --> ...          [tcl] # Global: Signal Groups
+23:01:13    7328 --> ...              [tcl] set _session_group_141 mapper0
+23:01:13    7329 --> ...                  [tcl] gui_sg_create "$_session_group_141"
+23:01:13    7330 --> ...                      [tcl] set mapper0 "$_session_group_141"
+23:01:13    7331 --> ...                          [tcl] gui_sg_addsignal -group "$_session_group_141" { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.enable CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.key CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.value CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.clk CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.rstn CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.tail CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.get_credit CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.en_get_credit CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.put_credits_mapper CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.en_put_credits_mapper CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.flit_out_mapper CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.num_credits CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.counter }
+23:01:13    7332 --> ...                              [tcl] gui_set_radix -radix {ascii} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.key}
+23:01:13    7333 --> ...                                  [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.key}
+23:01:13    7334 --> ...                                      [tcl] gui_set_radix -radix {ascii} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.value}
+23:01:13    7335 --> ...                                          [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.value}
+23:01:13    7336 --> ...                                              [tcl] set _session_group_142 mapper1
+23:01:13    7337 --> ...                                                  [tcl] gui_sg_create "$_session_group_142"
+23:01:13    7338 --> ...                                                      [tcl] set mapper1 "$_session_group_142"
+23:01:13    7339 --> ...                                                          [tcl] gui_sg_addsignal -group "$_session_group_142" { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.enable CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.key CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.clk CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.rstn CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.tail CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.get_credit CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.write_request CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper }
+23:01:13    7340 --> ...                                                              [tcl] gui_set_radix -radix {ascii} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value}
+23:01:13    7341 --> ...                                                                  [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value}
+23:01:13    7342 --> ...                                                                      [tcl] gui_set_radix -radix {ascii} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.key}
+23:01:13    7343 --> ...                                                                          [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.key}
+23:01:13    7344 --> ...                                                                              [tcl] set _session_group_143 reducer
+23:01:13    7345 --> ...                                                                                  [tcl] gui_sg_create "$_session_group_143"
+23:01:13    7346 --> ...                                                                                      [tcl] set reducer "$_session_group_143"
+23:01:13    7347 --> ...                                                                                          [tcl] gui_sg_addsignal -group "$_session_group_143" { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.search_key CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.clk CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.counter CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.addr CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.en_put_credits_reducer CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.put_credits_reducer }
+23:01:13    7348 --> ...                                                                                              [tcl] gui_set_radix -radix {ascii} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.search_key}
+23:01:13    7349 --> ...                                                                                                  [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.search_key}
+23:01:13    7350 --> ...  [tcl] gui_set_radix -radix {decimal} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result}
+23:01:13    7351 --> ...      [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result}
+23:01:13    7352 --> ...          [tcl] set _session_group_144 input_arb
+23:01:13    7353 --> ...              [tcl] gui_sg_create "$_session_group_144"
+23:01:13    7354 --> ...                  [tcl] set input_arb "$_session_group_144"
+23:01:13    7355 --> ...                      [tcl] gui_sg_addsignal -group "$_session_group_144" { CONNECT_testbench_sample.i_top_level.i_noc_input_controller.mapper_free CONNECT_testbench_sample.i_top_level.i_noc_input_controller.tail_internal CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits_mapper0 CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out EXP:flit_out.dest }
+23:01:13    7356 --> ...                          [tcl] gui_set_radix -radix {decimal} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_noc_input_controller.mapper_free}
+23:01:13    7357 --> ...                              [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_noc_input_controller.mapper_free}
+23:01:13    7358 --> ...                                  [tcl] gui_set_radix -radix {ascii} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out}
+23:01:13    7359 --> ...                                      [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out}
+23:01:13    7360 --> ...                                          [tcl] set _session_group_145 Group1
+23:01:13    7361 --> ...                                              [tcl] gui_sg_create "$_session_group_145"
+23:01:13    7362 --> ...                                                  [tcl] set Group1 "$_session_group_145"
+23:01:13    7363 --> ...                                                      [tcl] gui_sg_addsignal -group "$_session_group_145" { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value }
+23:01:13    7364 --> ...                                                          [tcl] gui_set_radix -radix {ascii} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value}
+23:01:13    7365 --> ...                                                              [tcl] gui_set_radix -radix {unsigned} -signals {Sim:CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value}
+23:01:13    7366 --> ...                                                                  [tcl] # Global: Highlighting
+23:01:13    7367 --> ...                                                                      [tcl] gui_highlight_signals -color #00ff00 {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full_1 {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_5$out_ports_0_getFlit[70:0]} CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full}
+23:01:13    7368 --> ...                                                                          [tcl] dveMisc::vbusExpand CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers
+23:01:13    7369 --> ...                                                                              [tcl] dveMisc::vbusExpand CONNECT_testbench_sample.i_top_level.i_mkNetwork
+23:01:13    7370 --> ...                                                                                  [tcl] # Global: Stack
+23:01:13    7371 --> ...                                                                                      [tcl] gui_change_stack_mode -mode list
+23:01:13    7372 --> ...                                                                                          [tcl] # Post database loading setting...
+23:01:13    7373 --> ...                                                                                              [tcl] # Save global setting...
+23:01:13    7374 --> ...                                                                                                  [tcl] # Wave/List view global setting
+23:01:13    7375 --> ...  [tcl] gui_cov_show_value -switch false
+23:01:13    7376 --> ...      [tcl] # Close all empty TopLevel windows
+23:01:13    7377 --> ...          [tcl] foreach __top [gui_ekki_get_window_ids -type TopLevel] {     if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {         gui_close_window -window $__top     } }
+23:01:13    7378 --> ...              [tcl] gui_set_loading_session_type noSession
+23:01:13    7379 --> ...                  [tcl] # DVE View/pane content session:
+23:01:13    7380 --> ...                      [tcl] # Hier 'Hier.1'
+23:01:13    7381 --> ...                          [tcl] gui_show_window -window ${Hier.1}
+23:01:13    7382 --> ...                              [tcl] gui_list_set_filter -id ${Hier.1} -list { {Package 1} {All 0} {Process 1} {VirtPowSwitch 0} {UnnamedProcess 1} {UDP 0} {Function 1} {Block 1} {SrsnAndSpaCell 0} {OVA Unit 1} {LeafScCell 1} {LeafVlgCell 1} {Interface 1} {LeafVhdCell 1} {$unit 1} {NamedBlock 1} {Task 1} {VlgPackage 1} {ClassDef 1} {VirtIsoCell 0} }
+23:01:13    7383 --> ...                                  [tcl] gui_list_set_filter -id ${Hier.1} -text {*}
+23:01:13    7384 --> ...                                      [tcl] gui_change_design -id ${Hier.1} -design Sim
+23:01:13    7385 --> ...                                          [tcl] catch {gui_list_expand -id ${Hier.1} CONNECT_testbench_sample}
+23:01:13    7386 --> ...                                              [tcl] catch {gui_list_expand -id ${Hier.1} CONNECT_testbench_sample.i_top_level}
+23:01:13    7387 --> ...                                                  [tcl] catch {gui_list_select -id ${Hier.1} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0}}
+23:01:13    7388 --> ...                                                      [tcl] dveMisc::vbusExpand CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0
+23:01:13    7389 --> ...                                                          [tcl] ucliGUI::getSignalValues -scope CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0 -radix {hexadecimal hexadecimal hexadecimal binary binary binary hexadecimal binary binary hexadecimal hexadecimal binary hexadecimal hexadecimal binary binary binary binary hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal binary } -list {{num_credits[2:0]} {get_credit[1:0]} {put_credits_mapper[1:0]} enable rstn en_put_credits_mapper {flit_out_mapper[70:0]} en_get_credit tail {value[63:0]} {counter[31:0]} clk {key[319:0]} {task_id[31:0]} clear finish read_request write_request {int_key[319:0]} {int_value[31:0]} {read_addr[31:0]} {write_addr[31:0]} {index[3:0]} {word[319:0]} done }
+23:01:13    7390 --> ...                                                              [tcl] gui_view_scroll -id ${Hier.1} -vertical -set 0
+23:01:13    7391 --> ...                                                                  [tcl] gui_view_scroll -id ${Hier.1} -horizontal -set 0
+23:01:13    7392 --> ...                                                                      [tcl] # Data 'Data.1'
+23:01:13    7393 --> ...                                                                          [tcl] gui_list_set_filter -id ${Data.1} -list { {Buffer 0} {Input 1} {Others 0} {Linkage 0} {Output 1} {LowPower 0} {Parameter 0} {All 0} {Aggregate 0} {LibBaseMember 0} {Event 0} {Assertion 0} {Constant 0} {Interface 0} {BaseMembers 0} {Signal 0} {$unit 0} {Inout 1} {Variable 1} }
+23:01:13    7394 --> ...                                                                              [tcl] gui_list_set_filter -id ${Data.1} -text {*}
+23:01:13    7395 --> ...                                                                                  [tcl] gui_list_show_data -id ${Data.1} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0}
+23:01:13    7396 --> ...                                                                                      [tcl] gui_show_window -window ${Data.1}
+23:01:13    7397 --> ...                                                                                          [tcl] catch { gui_list_select -id ${Data.1} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.counter }}
+23:01:13    7398 --> ...                                                                                              [tcl] gui_view_scroll -id ${Data.1} -vertical -set 0
+23:01:13    7399 --> ...                                                                                                  [tcl] gui_view_scroll -id ${Data.1} -horizontal -set 0
+23:01:13    7400 --> ...  [tcl] gui_view_scroll -id ${Hier.1} -vertical -set 0
+23:01:13    7401 --> ...      [tcl] gui_view_scroll -id ${Hier.1} -horizontal -set 0
+23:01:13    7402 --> ...          [tcl] # DriverLoad 'DriverLoad.1'
+23:01:13    7403 --> ...              [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits -time 155000 -starttime 155000
+23:01:13    7404 --> ...                  [tcl] gui_get_loads -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+23:01:13    7405 --> ...                      [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.int_value[31:0]} -time 335000 -starttime 335000
+23:01:13    7406 --> ...                          [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core$in_ports_0_getCredits[1:0]} -time 75000 -starttime 1805000
+23:01:13    7407 --> ...                              [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outport_encoder_76_BIT_3_77_AND_IF_flitBuffers_ETC___d654 -time 75000 -starttime 1805000
+23:01:13    7408 --> ...                                  [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652 -time 0 -starttime 1805000
+23:01:13    7409 --> ...                                      [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.fifo_out__h38368 -time 75000 -starttime 1805000
+23:01:13    7410 --> ...                                          [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]} -time 1805000 -starttime 1805000
+23:01:13    7411 --> ...                                              [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]} -time 1805000 -starttime 1805000
+23:01:13    7412 --> ...                                                  [tcl] gui_get_loads -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+23:01:13    7413 --> ...                                                      [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_1_putFlit_flit_in[70:0]} -time 1805000 -starttime 1805000
+23:01:13    7414 --> ...                                                          [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_in[63:0]} -time 1805000 -starttime 1805000
+23:01:13    7415 --> ...                                                              [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_IN[3:0]} -time 0 -starttime 1805000
+23:01:13    7416 --> ...                                                                  [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]} -time 55000 -starttime 1805000
+23:01:13    7417 --> ...                                                                      [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_0_putFlit_flit_in[70:0]} -time 1805000 -starttime 1805000
+23:01:13    7418 --> ...                                                                          [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88 -time 5000 -starttime 852787
+23:01:13    7419 --> ...                                                                              [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full -time 5000 -starttime 852787
+23:01:13    7420 --> ...                                                                                  [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88 -time 5000 -starttime 5489816
+23:01:13    7421 --> ...                                                                                      [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full_1 -time 5000 -starttime 5489816
+23:01:13    7422 --> ...                                                                                          [tcl] gui_get_drivers -session -id ${DriverLoad.1} -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88 -time 5000 -starttime 8670000
+23:01:13    7423 --> ...                                                                                              [tcl] # Source 'Source.1'
+23:01:13    7424 --> ...                                                                                                  [tcl] gui_src_value_annotate -id ${Source.1} -switch false
+23:01:13    7425 --> ...  [tcl] gui_set_env TOGGLE::VALUEANNOTATE 0
+23:01:13    7426 --> ...      [tcl] gui_open_source -id ${Source.1}  -replace -active CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_8.flitBuffers_3 /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining_2mapper/src/mkInputVCQueues.v
+23:01:13    7427 --> ...          [tcl] gui_src_value_annotate -id ${Source.1} -switch true
+23:01:13    7428 --> ...              [tcl] ucliGUI::getSignalValues -scope CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_8.flitBuffers_3 -radix {binary binary binary hexadecimal binary binary binary hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal } -list {CLK RST_N enq_fifo_in {enq_data_in[69:0]} EN_enq deq_fifo_out EN_deq {deq[69:0]} {notEmpty[1:0]} {notFull[1:0]} {inputVCQueues_ifc_mf_ifc_new_head$wget[2:0]} {inputVCQueues_ifc_mf_ifc_new_tail$wget[2:0]} {inputVCQueues_ifc_mf_ifc_rdFIFO$wget[1:0]} {inputVCQueues_ifc_mf_ifc_wrFIFO$wget[1:0]} {inputVCQueues_ifc_mf_ifc_heads[2:0]} {inputVCQueues_ifc_mf_ifc_heads$D_IN[2:0]} }
+23:01:13    7429 --> ...                  [tcl] gui_set_env TOGGLE::VALUEANNOTATE 1
+23:01:13    7430 --> ...                      [tcl] gui_view_scroll -id ${Source.1} -vertical -set 3465
+23:01:13    7431 --> ...                          [tcl] gui_src_set_reusable -id ${Source.1}
+23:01:13    7432 --> ...                              [tcl] # View 'Wave.1'
+23:01:13    7433 --> ...                                  [tcl] gui_wv_sync -id ${Wave.1} -switch false
+23:01:13    7434 --> ...                                      [tcl] set groupExD [gui_get_pref_value -category Wave -key exclusiveSG]
+23:01:13    7435 --> ...                                          [tcl] gui_set_pref_value -category Wave -key exclusiveSG -value {false}
+23:01:13    7436 --> ...                                              [tcl] set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
+23:01:13    7437 --> ...                                                  [tcl] gui_list_set_height -id Wave -height 25
+23:01:13    7438 --> ...                                                      [tcl] set origGroupCreationState [gui_list_create_group_when_add -wave]
+23:01:13    7439 --> ...                                                          [tcl] gui_list_create_group_when_add -wave -disable
+23:01:13    7440 --> ...                                                              [tcl] gui_wv_zoom_timerange -id ${Wave.1} 0 2218240
+23:01:13    7441 --> ...                                                                  [tcl] gui_list_add_group -id ${Wave.1} -after {New Group} {mapper0}
+23:01:13    7442 --> ...                                                                      [tcl] gui_list_add_group -id ${Wave.1} -after {New Group} {mapper1}
+23:01:13    7443 --> ...                                                                          [tcl] ucliGUI::getSignalValues -scope CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_8.flitBuffers_3 -radix {binary binary binary binary binary binary binary binary binary binary binary binary binary binary binary binary hexadecimal hexadecimal } -list {inputVCQueues_ifc_mf_ifc_wrFIFO_whas_AND_input_ETC___d32 {inputVCQueues_ifc_mf_ifc_rdFIFO$wget[1]} NOT_inputVCQueues_ifc_mf_ifc_wrFIFO_whas_5_OR__ETC___d63 {inputVCQueues_ifc_mf_ifc_not_empty_1$D_IN} inputVCQueues_ifc_mf_ifc_wrFIFO_whas_AND_input_ETC___d30 {inputVCQueues_ifc_mf_ifc_not_empty_1$EN} NOT_inputVCQueues_ifc_mf_ifc_wrFIFO_whas_5_OR__ETC___d60 {inputVCQueues_ifc_mf_ifc_not_full$D_IN} {inputVCQueues_ifc_mf_ifc_wrFIFO$wget[1]} NOT_inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_3__ETC___d41 {inputVCQueues_ifc_mf_ifc_not_full$EN} inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_AND_in_ETC___d54 {inputVCQueues_ifc_mf_ifc_not_full_1$D_IN} NOT_inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_3__ETC___d38 {inputVCQueues_ifc_mf_ifc_not_full_1$EN} inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_AND_in_ETC___d52 {inputVCQueues_ifc_mf_ifc_tails$D_IN[2:0]} {x__h2438[2:0]} }
+23:01:13    7444 --> ...                                                                              [tcl] gui_list_add_group -id ${Wave.1} -after {New Group} {reducer}
+23:01:13    7445 --> ...                                                                                  [tcl] gui_list_add_group -id ${Wave.1} -after {New Group} {input_arb}
+23:01:14    7446 --> ...                                                                                      [tcl] gui_list_select -id ${Wave.1} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.put_credits_mapper }
+23:01:14    7447 --> ...                                                                                          [tcl] gui_seek_criteria -id ${Wave.1} {Rising}
+23:01:14    7448 --> ...                                                                                              [tcl] gui_set_env TOGGLE::DEFAULT_WAVE_WINDOW ${Wave.1}
+23:01:14    7449 --> ...                                                                                                  [tcl] gui_set_pref_value -category Wave -key exclusiveSG -value $groupExD
+23:01:14    7450 --> ...  [tcl] gui_list_set_height -id Wave -height $origWaveHeight
+23:01:14    7451 --> ...      [tcl] if {$origGroupCreationState} { 	gui_list_create_group_when_add -wave -enable }
+23:01:14    7452 --> ...          [tcl] if { $groupExD } {  gui_msg_report -code DVWW028 }
+23:01:14    7453 --> ...              [tcl] gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+23:01:14    7454 --> ...                  [tcl] gui_list_set_filter -id ${Wave.1} -text {*}
+23:01:14    7455 --> ...                      [tcl] gui_list_set_insertion_bar  -id ${Wave.1} -group mapper0  -item {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0.counter[31:0]} -position below
+23:01:14    7456 --> ...                          [tcl] gui_view_scroll -id ${Wave.1} -vertical -set 0
+23:01:14    7457 --> ...                              [tcl] gui_show_grid -id ${Wave.1} -enable false
+23:01:14    7458 --> ...                                  [tcl] # Restore toplevel window zorder
+23:01:14    7459 --> ...                                      [tcl] # The toplevel window could be closed if it has no view/pane
+23:01:14    7460 --> ...                                          [tcl] if {[gui_exist_window -window ${TopLevel.1}]} { 	gui_set_active_window -window ${TopLevel.1} 	gui_set_active_window -window ${Source.1} 	gui_set_active_window -window ${DLPane.1} }
+23:01:14    7461 --> ...                                              [tcl] if {[gui_exist_window -window ${TopLevel.2}]} { 	gui_set_active_window -window ${TopLevel.2} 	gui_set_active_window -window ${Wave.1} }
+23:01:14    7462 --> ...                                                  [tcl] #</Session>
+23:01:15    7463 --> ...                                                      [tcl] synopsys::run
+23:01:15    7464 --> ...                                                          [tcl] set ucliGUI::state
+23:01:15    7465 --> ...                                                              [tcl] set ucliGUI::state
+23:01:15    7466 --> ...                                                                  [tcl] gui_update_simulator_buttons
+23:01:18    7467 --> ...                                                                      [tcl] set synopsys::env(time) 152215000
+23:01:21    7468 --> ...                                                                          [tcl] set synopsys::env(time) 312055000
+23:01:23    7469 --> ...                                                                              [tcl] set ucliGUI::state
+23:01:23    7470 --> ...                                                                                  [tcl] set ucliGUI::state
+23:01:23    7471 --> ...                                                                                      [tcl] catch {senv activeDomain} dveMisc::result 
+23:01:23    7472 --> ...                                                                                          [tcl] set dveMisc::result
+23:01:23    7473 --> ...                                                                                              [tcl] gui_update_simulator_buttons
+23:01:23    7474 --> ...                                                                                                  [tcl] ucliGUI::getSignalValues -scope CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_0 -radix {hexadecimal hexadecimal hexadecimal binary binary binary hexadecimal binary binary hexadecimal hexadecimal binary hexadecimal hexadecimal binary binary binary binary hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal hexadecimal binary } -list {{num_credits[2:0]} {get_credit[1:0]} {put_credits_mapper[1:0]} enable rstn en_put_credits_mapper {flit_out_mapper[70:0]} en_get_credit tail {value[63:0]} {counter[31:0]} clk {key[319:0]} {task_id[31:0]} clear finish read_request write_request {int_key[319:0]} {int_value[31:0]} {read_addr[31:0]} {write_addr[31:0]} {index[3:0]} {word[319:0]} done }
+23:01:23    7475 --> ...  [tcl] dveMisc::vbusExpand CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_8.flitBuffers_3
+23:01:23    7476 --> ...      [tcl] dveMisc::vbusExpand _vcs_unit__2274222008
+23:01:24    7477 --> ...          [tcl] ucliGUI::getSignalValues -scope CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_8.flitBuffers_3 -radix {binary binary binary binary binary binary binary binary binary binary binary binary binary binary binary binary binary binary hexadecimal hexadecimal binary binary hexadecimal binary hexadecimal binary hexadecimal hexadecimal } -list {inputVCQueues_ifc_mf_ifc_wrFIFO_whas_AND_input_ETC___d32 EN_deq {inputVCQueues_ifc_mf_ifc_rdFIFO$wget[1]} NOT_inputVCQueues_ifc_mf_ifc_wrFIFO_whas_5_OR__ETC___d63 {inputVCQueues_ifc_mf_ifc_not_empty_1$D_IN} inputVCQueues_ifc_mf_ifc_wrFIFO_whas_AND_input_ETC___d30 {inputVCQueues_ifc_mf_ifc_not_empty_1$EN} NOT_inputVCQueues_ifc_mf_ifc_wrFIFO_whas_5_OR__ETC___d60 {inputVCQueues_ifc_mf_ifc_not_full$D_IN} EN_enq {inputVCQueues_ifc_mf_ifc_wrFIFO$wget[1]} NOT_inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_3__ETC___d41 {inputVCQueues_ifc_mf_ifc_not_full$EN} inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_AND_in_ETC___d54 {inputVCQueues_ifc_mf_ifc_not_full_1$D_IN} NOT_inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_3__ETC___d38 {inputVCQueues_ifc_mf_ifc_not_full_1$EN} inputVCQueues_ifc_mf_ifc_rdFIFO_whas__2_AND_in_ETC___d52 {inputVCQueues_ifc_mf_ifc_tails$D_IN[2:0]} {x__h2438[2:0]} {inputVCQueues_ifc_mf_ifc_tails$EN} {inputVCQueues_ifc_mf_ifc_wrFIFO$wget[0]} {inputVCQueues_ifc_mf_ifc_tails_1$D_IN[2:0]} {inputVCQueues_ifc_mf_ifc_tails_1$EN} {inputVCQueues_ifc_mf_ifc_fifoMem$ADDR_IN[3:0]} enq_fifo_in {fifoWrPtr__h3541[2:0]} {inputVCQueues_ifc_mf_ifc_fifoMem$ADDR_OUT[3:0]} }
+23:04:02    7478 --> ...              [tcl] if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+23:04:02    7479 --> ...                  [tcl] synopsys::finish
+23:04:02    7480 --> ...                      [tcl] set ucliGUI::state
+23:04:02    7481 --> ...                          [tcl] set ucliGUI::state
+23:04:02    7482 --> ...                              [tcl] catch {senv activeDomain} dveMisc::result 
+23:04:02    7483 --> ...                                  [tcl] set dveMisc::result
+23:04:02    7484 --> ...                                      [tcl] gui_update_simulator_buttons
+23:04:02    7485 --> ...                                          [tcl] catch {senv activeDomain} dveMisc::result 
+23:04:02    7486 --> ...                                              [tcl] set dveMisc::result
+23:04:02    7487 --> ...                                                  [tcl] ucli_exit

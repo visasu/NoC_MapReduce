@@ -1,0 +1,1036 @@
+                         Chronologic VCS (TM)
+         Version K-2015.09_Full64 -- Sat Nov 26 23:16:23 2016
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+Parsing design file 'RegFileLoadSyn.v'
+Parsing design file 'RegFile_1port.v'
+Parsing design file 'connect_parameters.v'
+Parsing design file 'mkInputArbiter.v'
+Parsing design file 'mkInputVCQueues.v'
+Parsing design file 'mkNetwork.v'
+Parsing design file 'mkOutPortFIFO.v'
+Parsing design file 'mkOutputArbiter.v'
+Parsing design file 'mkRouterCore.v'
+Parsing design file 'mkRouterInputArbitersRoundRobin.v'
+Parsing design file 'mkRouterInputArbitersStatic.v'
+Parsing design file 'mkRouterOutputArbitersRoundRobin.v'
+Parsing design file 'mkRouterOutputArbitersStatic.v'
+Parsing design file 'mkSepRouterAllocator.v'
+Parsing design file 'module_gen_grant_carry.v'
+Parsing design file 'module_outport_encoder.v'
+Parsing design file 'sram.v'
+Parsing included file 'custom_params.v'.
+Back to file 'sram.v'.
+Parsing design file 'top_level.v'
+Parsing included file 'custom_params.v'.
+Back to file 'top_level.v'.
+Parsing design file 'custom_params.v'
+Parsing design file 'noc_input_controller.v'
+Parsing included file 'custom_params.v'.
+Back to file 'noc_input_controller.v'.
+Parsing design file 'my_testbench.v'
+Parsing included file 'connect_parameters.v'.
+Back to file 'my_testbench.v'.
+Parsing design file 'MapReduceMapper_unq1.v'
+Parsing design file 'MapReduceReducer_unq1.v'
+Top Level Modules:
+       mkInputArbiter
+       mkOutputArbiter
+       mkRouterInputArbitersStatic
+       mkRouterOutputArbitersStatic
+       CONNECT_testbench_sample
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+top_level.v, 642
+"noc_input_controller i_noc_input_controller( .data_in (data),  .tail_in (tail),  .address (address),  .CLK (CLK),  .RST_N (RST_N),  .en_get_credit_mapper0 (arb_rdy_get_credit_mapper0),  .get_credit_mapper0 (arb_get_credit_mapper0),  .en_get_credit_mapper1 (arb_rdy_get_credit_mapper0),  .get_credit_mapper1 (arb_get_credit_mapper0),  .en_get_credit_mapper2 (arb_rdy_get_credit_mapper0),  .get_credit_mapper2 (arb_get_credit_mapper0),  .en_get_credit_mapper3 (arb_rdy_get_credit_mapper0),  .get_credit_mapper3 (arb_get_credit_mapper0),  .flit_out (flit));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+my_testbench.v, 178
+"top_level i_top_level( .CLK (Clk),  .RST_N (Rst_n),  .data_words (data_words));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_5_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_5_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_5_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_6_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_6_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_6_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_7_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_7_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_7_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_8_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_8_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_8_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_9_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_9_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_9_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_10_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_10_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_10_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_11_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_11_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_11_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_12_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_12_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_12_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_13_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_13_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_13_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_14_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_14_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_14_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "send_ports_15_putFlit_flit_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "send_ports_15_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "send_ports_15_getCredits" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_0_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_0_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_0_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_6_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_6_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_6_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_7_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_7_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_7_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_8_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_8_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_8_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_9_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_9_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_9_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_10_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_10_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_10_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_11_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_11_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_11_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_12_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_12_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_12_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_13_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_13_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_13_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_14_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_14_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_14_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 71-bit port 
+  "recv_ports_15_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_15_getFlit" of module "mkNetwork", instance "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 2-bit port 
+  "recv_ports_15_putCredits_cr_in" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_0_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_0_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_1_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_1_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_2_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_2_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_3_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_3_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_4_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_4_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_5_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_5_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_6_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_6_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_7_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_7_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_8_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_8_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_9_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_9_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_10_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_10_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_11_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_11_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_12_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_12_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_13_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_13_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_14_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_14_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following 1-bit expression is connected to 4-bit port 
+  "recv_ports_info_15_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Expression: 1'b0
+  	use +lint=PCWM for more details
+
+
+Warning-[IPC] Illegal high conn for port connect
+top_level.v, 401
+"mkNetwork i_mkNetwork( .CLK (CLK),  .RST_N (RST_N),  .send_ports_0_putFlit_flit_in (flit),  .EN_send_ports_0_putFlit (flit[(flit_port_width - 1)]),  .EN_send_ports_0_getCredits (arb_rdy_get_credit_mapper0),  .send_ports_0_getCredits (arb_get_credit_mapper0),  .send_ports_1_putFlit_flit_in (flit_out_mapper0),  .EN_send_ports_1_putFlit (flit_out_mapper0[(flit_port_width - 1)]),  .EN_send_ports_1_getCredits (mapper0_rdy_get_credit),  .send_ports_1_getCredits (mapper0_get_credit),  .send_ports_2_putFlit_flit_in (flit_out_mapper1),  .EN_send_ports_2_putFlit (flit_out_mapper1[(flit_port_width - 1)]),  .EN_send_ports_2_getCredits (mapper1_rdy_get_credit),  .send_ports_2_getCredits (mapper1_get_credit),  .send_ports_3_putFlit_flit_in (flit_out_mapper2),  .EN_se ... "
+  The following constant is illegally connected to output port 
+  "recv_ports_info_15_getRecvPortID" of module "mkNetwork", instance 
+  "i_mkNetwork".
+  Constant: 1'b0
+  
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 751
+"MapReduceReducer_unq1 i_MapReduceReducer_unq1( .enable (flit_in_reducer[(flit_port_width - 1)]),  .search_key ("                                the     "),  .int_value (flit_in_reducer[0]),  .put_credits_reducer (reducer_put_credit),  .en_put_credits_reducer (en_reducer_put_credit),  .clk (CLK),  .rstn (RST_N),  .result (result_output));"
+  The following 1-bit expression is connected to 32-bit port "int_value" of 
+  module "MapReduceReducer_unq1", instance "i_MapReduceReducer_unq1".
+  Expression: flit_in_reducer[0]
+  	use +lint=PCWM for more details
+
+
+Warning-[PCWM-W] Port connection width mismatch
+top_level.v, 751
+"MapReduceReducer_unq1 i_MapReduceReducer_unq1( .enable (flit_in_reducer[(flit_port_width - 1)]),  .search_key ("                                the     "),  .int_value (flit_in_reducer[0]),  .put_credits_reducer (reducer_put_credit),  .en_put_credits_reducer (en_reducer_put_credit),  .clk (CLK),  .rstn (RST_N),  .result (result_output));"
+  The following 1-bit expression is connected to 32-bit port "result" of 
+  module "MapReduceReducer_unq1", instance "i_MapReduceReducer_unq1".
+  Expression: result_output
+  	use +lint=PCWM for more details
+
+Starting vcs inline pass...
+14 modules and 0 UDP read.
+	However, due to incremental compilation, only 2 modules need to be compiled.
+recompiling module noc_input_controller because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module CONNECT_testbench_sample because:
+	This module or some inlined child module(s) has/have been modified.
+Both modules done.
+rm -f _csrc*.so linux64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o   _15378_archive_1.so _prev_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /usr/local/synopsys/vcs_2015.09/linux64/lib/libzerosoft_rt_stubs.so /usr/local/synopsys/vcs_2015.09/linux64/lib/libvirsim.so /usr/local/synopsys/vcs_2015.09/linux64/lib/liberrorinf.so /usr/local/synopsys/vcs_2015.09/linux64/lib/libsnpsmalloc.so    /usr/local/synopsys/vcs_2015.09/linux64/lib/libvcsnew.so /usr/local/synopsys/vcs_2015.09/linux64/lib/libsimprofile.so /usr/local/synopsys/vcs_2015.09/linux64/lib/libuclinative.so   -Wl,-whole-archive /usr/local/synopsys/vcs_2015.09/linux64/lib/libvcsucli.so -Wl,-no-whole-archive          /usr/local/synopsys/vcs_2015.09/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .582 seconds to compile + .235 seconds to elab + .084 seconds to link

@@ -1,0 +1,1039 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Layout -key child_console_size_x -value 1535
+gui_set_state_value -category Layout -key child_console_size_y -value 179
+gui_set_state_value -category Layout -key child_data_colvariable -value 194
+gui_set_state_value -category Layout -key child_data_size_x -value 288
+gui_set_state_value -category Layout -key child_data_size_y -value 524
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 303
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 412
+gui_set_state_value -category Layout -key child_hier_size_y -value 524
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 838
+gui_set_state_value -category Layout -key child_source_size_y -value 519
+gui_set_state_value -category Layout -key child_wave_colname -value 211
+gui_set_state_value -category Layout -key child_wave_colvalue -value 212
+gui_set_state_value -category Layout -key child_wave_left -value 427
+gui_set_state_value -category Layout -key child_wave_right -value 1042
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 23
+gui_set_state_value -category Layout -key main_size_x -value 1535
+gui_set_state_value -category Layout -key main_size_y -value 825
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1479
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 678
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 28
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 51
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1502
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 833
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key dlgDumpValues|m_Combo -value_type string -value {{CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic top_MapReduce} {CONNECT_testbench_sample mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic}}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_expand -id  Hier.1   mkOutputArbiter
+gui_list_collapse -id  Hier.1   mkOutputArbiter
+gui_list_expand -id  Hier.1   mkInputArbiter
+gui_list_collapse -id  Hier.1   mkInputArbiter
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.enable   }
+gui_list_select -id Data.1 { {CONNECT_testbench_sample.i_gui_list_select -id Data.1 -selected  {  }
+gui_marker_move -id  Wave.1 C1 125000
+gui_marker_move -id  Wave.1 C1 85191
+gui_marker_move -id  Wave.1 C1 125000
+gui_wv_zoom_timerange -id  Wave.1 73950 193454
+gui_marker_move -id  Wave.1 C1 85000
+gui_marker_move -id  Wave.1 C1 95000
+gui_marker_move -id  Wave.1 C1 105000
+gui_marker_move -id  Wave.1 C1 115000
+gui_marker_move -id  Wave.1 C1 125000
+gui_marker_move -id  Wave.1 C1 135000
+gui_marker_move -id  Wave.1 C1 145000
+gui_marker_move -id  Wave.1 C1 155000
+gui_marker_move -id  Wave.1 C1 165000
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.counter[31:0]}   }
+gui_marker_move -id  Wave.1 C1 135000
+gui_wv_scroll_vslidermove -id  Wave.1 248
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_wv_scroll_vslidermove -id  Wave.1 190
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.int_value[31:0]}   }
+gui_marker_select -id  Wave.1 { C1 }
+gui_marker_move -id  Wave.1 C1 57385
+gui_marker_move -id  Wave.1 C1 125000
+gui_wv_scroll_vslidermove -id  Wave.1 366
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]}   }
+gui_wv_scroll_vslidermove -id  Wave.1 24
+gui_wv_scroll_vslidermove -id  Wave.1 0
+gui_wv_scroll_vslidermove -id  Wave.1 366
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.search_key[319:0]}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.search_key[319:0]}  {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.int_key[319:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix ascii
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/session.inter.vpd.tcl
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 53244
+gui_list_expand -id  Data.1   {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.$unit}
+gui_list_collapse -id  Data.1   {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.$unit}
+gui_list_expand -id  Data.1   {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.$unit}
+gui_list_expand -id  Data.1   {_vcs_unit__2274222008.flit_port_width[31:0]}
+gui_list_collapse -id  Data.1   {_vcs_unit__2274222008.flit_port_width[31:0]}
+gui_list_collapse -id  Data.1   {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.$unit}
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}   }
+dump -add { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper } -depth 0 -scope "."
+dump -add { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper } -depth 0 -scope "."
+dump -add { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper } -depth 0 -scope "."
+gui_list_create_group_when_add -wave -disable
+gui_list_add -id Wave.1 -from Data.1 { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.done {{CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}} 
+gui_marker_move -id  Wave.1 C1 135000
+gui_marker_move -id  Wave.1 C1 145000
+gui_marker_move -id  Wave.1 C1 135000
+gui_marker_move -id  Wave.1 C1 145000
+gui_list_expand -id  Wave.1   {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_list_collapse -id  Wave.1   {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable   }
+gui_list_add  -id  Wave.1   -after reducer {{CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.enable}}
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.task_id[31:0]}   }
+gui_marker_move -id  Wave.1 C1 192271
+gui_marker_move -id  Wave.1 C1 110038
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 135000
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.int_value[31:0]}   }
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/session.inter.vpd.tcl
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 322424
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 135000
+gui_marker_move -id  Wave.1 C1 145000
+gui_marker_move -id  Wave.1 C1 135000
+gui_sim_terminate 
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 125000
+gui_marker_move -id  Wave.1 C1 115000
+gui_marker_move -id  Wave.1 C1 125000
+gui_marker_move -id  Wave.1 C1 135000
+gui_marker_move -id  Wave.1 C1 145000
+gui_marker_move -id  Wave.1 C1 135000
+gui_wv_zoom_timerange -id  Wave.1 105897 157958
+gui_marker_move -id  Wave.1 C1 115000
+gui_marker_move -id  Wave.1 C1 125000
+gui_marker_move -id  Wave.1 C1 135000
+gui_marker_move -id  Wave.1 C1 145000
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 -current_item_type Scope  -selected  {  }
+gui_sim_terminate 
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]}   }
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 155000
+gui_wv_zoom_timerange -id  Wave.1 126603 168607
+gui_marker_move -id  Wave.1 C1 135000
+gui_marker_move -id  Wave.1 C1 145000
+gui_marker_move -id  Wave.1 C1 155000
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample -current_item_type Scope  -selected  { CONNECT_testbench_sample   }
+gui_list_expand -id Hier.1   CONNECT_testbench_sample
+gui_list_action -id  Hier.1 CONNECT_testbench_sample
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.flit_out[0:15][70:0]}   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level   }
+gui_list_expand -id Hier.1   CONNECT_testbench_sample.i_top_level
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.flit_out_mapper0[70:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.flit_in_mapper0[70:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.send_ports_0_getCredits[1:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.send_ports_0_putFlit_flit_in[70:0]}   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.EN_send_ports_0_getCredits   }
+gui_list_action -id  Data.1 CONNECT_testbench_sample.i_top_level.EN_send_ports_0_getCredits
+gui_src_highlight_item -id Source.1 -lfrom 57 -idxfrom 6 -fileIdFrom 0 -lto 57 -idxto 32 -fileIdTo 0 -selection {EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.EN_send_ports_0_getCredits
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.EN_send_ports_0_getCredits
+gui_get_loads -id Source.1 -signal CONNECT_testbench_sample.i_top_level.EN_send_ports_0_getCredits
+gui_src_highlight_item -id Source.1 -lfrom 57 -idxfrom 6 -fileIdFrom 0 -lto 57 -idxto 32 -fileIdTo 0 -selection {EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork   }
+gui_list_expand -id Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_0_getCredits[1:0]}   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits   }
+gui_list_action -id  Data.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+gui_src_highlight_item -id Source.1 -lfrom 6764 -idxfrom 3 -fileIdFrom 0 -lto 6764 -idxto 29 -fileIdTo 0 -selection {EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+gui_src_highlight_item -id Source.1 -lfrom 364 -idxfrom 4 -fileIdFrom 0 -lto 364 -idxto 31 -fileIdTo 0 -selection {.EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 364 -idxfrom 4 -fileIdFrom 0 -lto 364 -idxto 31 -fileIdTo 0 -selection {.EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 364 -idxfrom 4 -fileIdFrom 0 -lto 364 -idxto 31 -fileIdTo 0 -selection {.EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 364 -idxfrom 4 -fileIdFrom 0 -lto 364 -idxto 31 -fileIdTo 0 -selection {.EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_src_highlight_item -id Source.1 -lfrom 6764 -idxfrom 3 -fileIdFrom 0 -lto 6764 -idxto 29 -fileIdTo 0 -selection {EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_get_loads -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+gui_src_highlight_item -id Source.1 -lfrom 11091 -idxfrom 6 -fileIdFrom 0 -lto 11091 -idxto 32 -fileIdTo 0 -selection {EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_get_loads -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+gui_get_loads -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+gui_src_highlight_item -id Source.1 -lfrom 11091 -idxfrom 6 -fileIdFrom 0 -lto 11091 -idxto 32 -fileIdTo 0 -selection {EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.EN_send_ports_0_getCredits
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+gui_src_highlight_item -id Source.1 -lfrom 11091 -idxfrom 6 -fileIdFrom 0 -lto 11091 -idxto 32 -fileIdTo 0 -selection {EN_send_ports_0_getCredits} -selectionId 0 -replace 0
+gui_find -next -id Source.1 -expr EN_send_ports_0_getCredits 
+gui_find -next -id Source.1 -expr EN_send_ports_0_getCredits 
+gui_find -next -id Source.1 -expr EN_send_ports_0_getCredits 
+gui_find -next -id Source.1 -expr EN_send_ports_0_getCredits 
+gui_find -next -id Source.1 -expr EN_send_ports_0_getCredits 
+gui_sim_terminate 
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_1_getCredits[1:0]}   }
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_2_putFlit_flit_in[70:0]}   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample -current_item_type Scope  -selected  { CONNECT_testbench_sample   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.arb_rdy_get_credit   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.arb_rdy_get_credit  {CONNECT_testbench_sample.i_top_level.arb_get_credit[1:0]}   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper[1:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper[1:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper   }
+gui_list_add -id Wave.1 -from Data.1 { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper[1:0]} CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper } -insertionbar
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_noc_input_controller -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_noc_input_controller   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}  CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit   }
+gui_list_add -id Wave.1 -from Data.1 { CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]} } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 155000 443702
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper   }
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper  {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.task_id[31:0]}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]} {{CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper} {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.task_id[31:0]}} 
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit   }
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}   }
+gui_sg_create  Group1 
+gui_list_add_group -id  Wave.1   {Group1} 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after Group1 {{CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit} {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}}
+gui_list_select -id Wave.1 -selected  { Group1   }
+gui_list_action -id  Wave.1 Group1
+gui_sg_rename  Group1   input_arb
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/session.inter.vpd.tcl
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 1544283 1626865
+gui_marker_move -id  Wave.1 C1 1585000
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 175000
+gui_marker_move -id  Wave.1 C1 85000
+gui_marker_move -id  Wave.1 C1 255000
+gui_marker_move -id  Wave.1 C1 395000
+gui_marker_move -id  Wave.1 C1 495000
+gui_marker_move -id  Wave.1 C1 635000
+gui_wv_zoom_timerange -id  Wave.1 350973 673043
+gui_marker_move -id  Wave.1 C1 445000
+gui_marker_move -id  Wave.1 C1 455000
+gui_marker_move -id  Wave.1 C1 465000
+gui_marker_move -id  Wave.1 C1 475000
+gui_marker_move -id  Wave.1 C1 475000
+gui_marker_move -id  Wave.1 C1 465000
+gui_marker_move -id  Wave.1 C1 455000
+gui_marker_move -id  Wave.1 C1 465000
+gui_marker_move -id  Wave.1 C1 475000
+gui_marker_move -id  Wave.1 C1 485000
+gui_marker_move -id  Wave.1 C1 495000
+gui_marker_move -id  Wave.1 C1 505000
+gui_marker_move -id  Wave.1 C1 515000
+gui_marker_move -id  Wave.1 C1 525000
+gui_marker_move -id  Wave.1 C1 525000
+gui_marker_move -id  Wave.1 C1 545000
+gui_marker_move -id  Wave.1 C1 555000
+gui_marker_move -id  Wave.1 C1 565000
+gui_marker_move -id  Wave.1 C1 575000
+gui_marker_move -id  Wave.1 C1 585000
+gui_marker_move -id  Wave.1 C1 595000
+gui_marker_move -id  Wave.1 C1 615000
+gui_marker_move -id  Wave.1 C1 625000
+gui_marker_move -id  Wave.1 C1 475000
+gui_marker_move -id  Wave.1 C1 445000
+gui_marker_move -id  Wave.1 C1 415000
+gui_marker_move -id  Wave.1 C1 405000
+gui_marker_move -id  Wave.1 C1 395000
+gui_marker_move -id  Wave.1 C1 375000
+gui_marker_move -id  Wave.1 C1 365000
+gui_marker_move -id  Wave.1 C1 375000
+gui_marker_move -id  Wave.1 C1 385000
+gui_marker_move -id  Wave.1 C1 395000
+gui_marker_move -id  Wave.1 C1 405000
+gui_marker_move -id  Wave.1 C1 425000
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 245000
+gui_wv_zoom_timerange -id  Wave.1 136260 441814
+gui_wv_zoom_timerange -id  Wave.1 208503 279256
+gui_marker_move -id  Wave.1 C1 215000
+gui_marker_move -id  Wave.1 C1 255000
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.counter[31:0]}   }
+gui_seek_next -id Wave.1 -number 1 
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]}   }
+gui_zoom -window  Wave.1  -factor 0.5
+gui_wv_zoom_timerange -id  Wave.1 280110 374060
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_zoom -window  Wave.1  -full
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 1755000
+gui_wv_zoom_timerange -id  Wave.1 1563443 2362930
+gui_wv_zoom_timerange -id  Wave.1 1713655 1857824
+gui_seek_criteria -id Wave.1 "Value..." 
+gui_marker_move -id  Wave.1 C1 1755000
+gui_marker_move -id  Wave.1 C1 1765000
+gui_marker_move -id  Wave.1 C1 1775000
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   }
+gui_wv_scrollright -id  Wave.1  page
+gui_wv_scrollright -id  Wave.1  page
+gui_wv_zoom_timerange -id  Wave.1 2060908 2103449
+gui_zoom -window  Wave.1  -factor 0.5
+gui_wv_scrollright -id  Wave.1  page
+gui_wv_scrollright -id  Wave.1  page
+gui_wv_scrollright -id  Wave.1  page
+gui_marker_move -id  Wave.1 C1 2305000
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 2185266 4299467
+gui_wv_zoom_timerange -id  Wave.1 2863703 3292608
+gui_wv_zoom_timerange -id  Wave.1 2998819 3142960
+gui_wv_zoom_timerange -id  Wave.1 3029619 3120298
+gui_marker_move -id  Wave.1 C1 3095000
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 2718258 3411148
+gui_marker_move -id  Wave.1 C1 2925000
+gui_marker_move -id  Wave.1 C1 2945000
+gui_marker_move -id  Wave.1 C1 2925000
+gui_marker_move -id  Wave.1 C1 3105000
+gui_marker_move -id  Wave.1 C1 3275000
+gui_zoom -window  Wave.1  -factor 0.5
+gui_zoom -window  Wave.1  -factor 0.5
+gui_marker_move -id  Wave.1 C1 3535000
+gui_zoom -window  Wave.1  -factor 0.5
+gui_marker_move -id  Wave.1 C1 3275000
+gui_marker_move -id  Wave.1 C1 3535000
+gui_marker_move -id  Wave.1 C1 3835000
+gui_marker_move -id  Wave.1 C1 4375000
+gui_marker_move -id  Wave.1 C1 4485000
+gui_wv_zoom_timerange -id  Wave.1 4270929 4657130
+gui_marker_move -id  Wave.1 C1 4495000
+gui_zoom -window  Wave.1  -factor 0.5
+gui_zoom -window  Wave.1  -factor 0.5
+gui_zoom -window  Wave.1  -factor 0.5
+gui_zoom -window  Wave.1  -factor 0.5
+gui_marker_move -id  Wave.1 C1 6485000
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 7345000
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.done   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}   }
+gui_wv_zoom_timerange -id  Wave.1 1190348 3304549
+gui_wv_zoom_timerange -id  Wave.1 1499003 2044883
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork   }
+gui_list_collapse -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_expand -id  Hier.1   mkOutputArbiter
+gui_list_collapse -id  Hier.1   mkOutputArbiter
+gui_list_expand -id  Hier.1   mkInputArbiter
+gui_list_collapse -id  Hier.1   mkInputArbiter
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork -current_item_type Scope  -selected  {  }
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_9_rt_ifc_banks_banks_rf_4 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_9_rt_ifc_banks_banks_rf_4   }
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core   }
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem   }
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers   }
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper[1:0]}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper {{CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper[1:0]}} 
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level   }
+gui_list_collapse -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_noc_input_controller -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_noc_input_controller   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_port_width[31:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]} {{CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}} 
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample -current_item_type Scope  -selected  { CONNECT_testbench_sample   }
+gui_list_select -id Hier.1 -current_item_name mkRouterOutputArbitersStatic -current_item_type Scope  { CONNECT_testbench_sample.i_top_level  CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1  CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1  CONNECT_testbench_sample.i_top_level.i_mkNetwork  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_2_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_2_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_2_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_2_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_2_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_3_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_3_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_3_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_3_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_3_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_4_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_4_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_4_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_4_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_4_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_5_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_5_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_5_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_5_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_5_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_6_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_6_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_6_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_6_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_6_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_7_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_7_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_7_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_7_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_7_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_8_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_8_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_8_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_8_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_8_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_9_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_9_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_9_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_9_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_9_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_10_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_10_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_10_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_10_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_10_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_11_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_11_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_11_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_11_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_11_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_12_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_12_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_12_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_12_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_12_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_13_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_13_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_13_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_13_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_13_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_14_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_14_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_14_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_14_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_14_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_15_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_15_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_15_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_15_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_15_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.instance_outport_encoder_0  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.instance_outport_encoder_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.instance_outport_encoder_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.instance_outport_encoder_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.instance_outport_encoder_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_0  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_0_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_1_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_2_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_3_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outPortFIFOs_4_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.routerAlloc  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_1  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_2  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_3  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_4  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_5  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_6  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_7  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_8  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_9  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_10  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_11  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_12  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_13  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_14  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_15  CONNECT_testbench_sample.i_top_level.i_noc_input_controller  CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw  CONNECT_testbench_sample.task_send_flit  mkInputArbiter  mkInputArbiter.instance_gen_grant_carry_0  mkInputArbiter.instance_gen_grant_carry_1  mkInputArbiter.instance_gen_grant_carry_2  mkInputArbiter.instance_gen_grant_carry_3  mkInputArbiter.instance_gen_grant_carry_4  mkInputArbiter.instance_gen_grant_carry_5  mkInputArbiter.instance_gen_grant_carry_6  mkInputArbiter.instance_gen_grant_carry_7  mkInputArbiter.instance_gen_grant_carry_8  mkInputArbiter.instance_gen_grant_carry_9  mkOutputArbiter  mkOutputArbiter.instance_gen_grant_carry_0  mkOutputArbiter.instance_gen_grant_carry_1  mkOutputArbiter.instance_gen_grant_carry_2  mkOutputArbiter.instance_gen_grant_carry_3  mkOutputArbiter.instance_gen_grant_carry_4  mkOutputArbiter.instance_gen_grant_carry_5  mkOutputArbiter.instance_gen_grant_carry_6  mkOutputArbiter.instance_gen_grant_carry_7  mkOutputArbiter.instance_gen_grant_carry_8  mkOutputArbiter.instance_gen_grant_carry_9  mkRouterInputArbitersStatic  mkRouterOutputArbitersStatic   }
+dump -add { CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+dump -add { CONNECT_testbench_sample CONNECT_testbench_sample.i_top_level CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 CONNECT_testbench_sample.i_top_level.i_mkNetwork CONNECT_testbench_sample.i_top_level.i_noc_input_controller CONNECT_testbench_sample.i_top_level.i_ram_sp_sr_sw CONNECT_testbench_sample.task_send_flit mkInputArbiter mkOutputArbiter mkRouterInputArbitersStatic mkRouterOutputArbitersStatic }  -depth 0 -scope "."
+gui_sim_terminate 
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 230963 1119283
+gui_wv_zoom_timerange -id  Wave.1 267588 451441
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 5000
+gui_marker_move -id  Wave.1 C1 55000
+gui_marker_move -id  Wave.1 C1 65000
+gui_marker_move -id  Wave.1 C1 75000
+gui_marker_move -id  Wave.1 C1 85000
+gui_marker_move -id  Wave.1 C1 95000
+gui_marker_move -id  Wave.1 C1 105000
+gui_marker_move -id  Wave.1 C1 115000
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 1755000
+gui_wv_zoom_timerange -id  Wave.1 88832 479693
+gui_marker_move -id  Wave.1 C1 235000
+gui_marker_move -id  Wave.1 C1 245000
+gui_marker_move -id  Wave.1 C1 325000
+gui_marker_move -id  Wave.1 C1 335000
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 159898 1456844
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.int_value[31:0]}   }
+gui_list_action -id  Wave.1 {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.int_value[31:0]}
+gui_get_drivers -id Wave.1 -signal {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.int_value[31:0]}
+gui_list_select -id Wave.1 -selected  {  }
+gui_wv_zoom_timerange -id  Wave.1 300317 372075
+gui_zoom -window  Wave.1  -full
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 1030451 1865471
+gui_wv_zoom_timerange -id  Wave.1 1291885 1462996
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper[1:0]}   }
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_put_credits_mapper   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}   }
+gui_wv_zoom_timerange -id  Wave.1 0 390861
+gui_wv_zoom_timerange -id  Wave.1 0 104123
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample -current_item_type Scope  -selected  {  }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample -current_item_type Scope  -selected  { CONNECT_testbench_sample   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.is_valid   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.flit_out[0:15][70:0]}   }
+gui_list_action -id  Data.1 {CONNECT_testbench_sample.flit_out[0:15][70:0]}
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 1805000
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample -current_item_type Scope  -selected  {  }
+gui_src_highlight_item -id Source.1 -lfrom 77 -idxfrom 29 -fileIdFrom 0 -lto 77 -idxto 37 -fileIdTo 0 -selection {flit_out} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.flit_out[0:15][70:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.flit_out[0:15][70:0]}
+gui_list_select -id Hier.1 -current_item_name mkOutputArbiter -current_item_type Scope  -selected  { mkOutputArbiter   }
+gui_list_select -id Hier.1 -current_item_name mkInputArbiter -current_item_type Scope  -selected  { mkInputArbiter   }
+gui_list_select -id Hier.1 -current_item_name mkOutputArbiter -current_item_type Scope  -selected  { mkOutputArbiter   }
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_noc_input_controller -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_noc_input_controller   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit   }
+gui_list_action -id  Data.1 CONNECT_testbench_sample.i_top_level.i_noc_input_controller.en_get_credit
+gui_src_highlight_item -id Source.1 -lfrom 22 -idxfrom 4 -fileIdFrom 0 -lto 22 -idxto 14 -fileIdTo 0 -selection {get_credit} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.get_credit[1:0]}
+gui_src_highlight_item -id Source.1 -lfrom 8527 -idxfrom 6 -fileIdFrom 0 -lto 8527 -idxto 51 -fileIdTo 0 -selection {net_routers_router_core$in_ports_0_getCredits} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core$in_ports_0_getCredits[1:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core$in_ports_0_getCredits[1:0]}
+gui_src_highlight_item -id Source.1 -lfrom 1278 -idxfrom 8 -fileIdFrom 0 -lto 1278 -idxto 65 -fileIdTo 0 -selection {outport_encoder_76_BIT_3_77_AND_IF_flitBuffers_ETC___d654} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outport_encoder_76_BIT_3_77_AND_IF_flitBuffers_ETC___d654
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.outport_encoder_76_BIT_3_77_AND_IF_flitBuffers_ETC___d654
+gui_src_highlight_item -id Source.1 -lfrom 2899 -idxfrom 7 -fileIdFrom 0 -lto 2899 -idxto 27 -fileIdTo 0 -selection {flitBuffers$notEmpty} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 2900 -idxfrom 2 -fileIdFrom 0 -lto 2900 -idxto 59 -fileIdTo 0 -selection {NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.NOT_IF_outPortFIFOs_0_first__90_EQ_0_91_THEN_c_ETC___d652
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+ package require snpsMisc ; Misc::exec_method -method fwdCmd 
+gui_src_highlight_item -id Source.1 -lfrom 1279 -idxfrom 8 -fileIdFrom 0 -lto 1279 -idxto 24 -fileIdTo 0 -selection {fifo_out__h38368} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.fifo_out__h38368
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.fifo_out__h38368
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_in[70:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]}   }
+gui_list_action -id  Data.1 {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]}
+gui_src_highlight_item -id Source.1 -lfrom 20 -idxfrom 4 -fileIdFrom 0 -lto 20 -idxto 12 -fileIdTo 0 -selection {flit_out} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.flit_out[70:0]}
+gui_src_highlight_item -id Source.1 -lfrom 75 -idxfrom 49 -fileIdFrom 0 -lto 75 -idxto 62 -fileIdTo 0 -selection {data_internal} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_src_highlight_item -id Source.1 -lfrom 75 -idxfrom 49 -fileIdFrom 0 -lto 75 -idxto 62 -fileIdTo 0 -selection {data_internal} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_get_loads -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_get_loads -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_list_select -id Data.1 -selected  {  }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork   }
+gui_list_expand -id Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_src_highlight_item -id Source.1 -lfrom 6767 -idxfrom 3 -fileIdFrom 0 -lto 6767 -idxto 31 -fileIdTo 0 -selection {send_ports_1_putFlit_flit_in} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_1_putFlit_flit_in[70:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_1_putFlit_flit_in[70:0]}
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+gui_src_highlight_item -id Source.1 -lfrom 75 -idxfrom 49 -fileIdFrom 0 -lto 75 -idxto 62 -fileIdTo 0 -selection {data_internal} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 75 -idxfrom 49 -fileIdFrom 0 -lto 75 -idxto 62 -fileIdTo 0 -selection {data_internal} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_src_highlight_item -id Source.1 -lfrom 75 -idxfrom 49 -fileIdFrom 0 -lto 75 -idxto 62 -fileIdTo 0 -selection {data_internal} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_internal[63:0]}
+gui_src_highlight_item -id Source.1 -lfrom 72 -idxfrom 21 -fileIdFrom 0 -lto 72 -idxto 28 -fileIdTo 0 -selection {data_in} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_in[63:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.data_in[63:0]}
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf_4 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf_4   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf.ADDR_IN[3:0]}   }
+gui_list_action -id  Data.1 {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf.ADDR_IN[3:0]}
+gui_list_add -id Wave.1 -from Source.1 { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf.ADDR_IN[3:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_1_rt_ifc_banks_banks_rf.ADDR_IN[3:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers_notEmpty__88_BIT_1_02_AND_NOT_IF_o_ETC___d217   }
+gui_list_set_filter -id Data.1 -type All -value 0
+gui_list_set_filter -id Data.1 -type Input -value 1
+gui_list_set_filter -id Data.1 -type Output -value 1
+gui_list_set_filter -id Data.1 -type Inout -value 1
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.EN_in_ports_3_getCredits   }
+gui_list_sort -id  Data.1   {Variable}
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.EN_in_ports_0_getCredits   }
+gui_list_action -id  Data.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.EN_in_ports_0_getCredits
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_1   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core_1   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_noc_input_controller -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_noc_input_controller   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf   }
+gui_list_expand -id Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]}   }
+gui_src_highlight_item -id Source.1 -lfrom 35 -idxfrom 19 -fileIdFrom 0 -lto 35 -idxto 26 -fileIdTo 0 -selection {ADDR_IN} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_IN[3:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_IN[3:0]}
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+gui_list_add -id Wave.1 -from Data.1 { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]} } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 532992
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]}   }
+gui_list_action -id  Wave.1 {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]}
+gui_get_drivers -id Wave.1 -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]}
+gui_list_select -id Wave.1 -selected  {  }
+gui_src_highlight_item -id Source.1 -lfrom 11037 -idxfrom 6 -fileIdFrom 0 -lto 11037 -idxto 34 -fileIdTo 0 -selection {send_ports_0_putFlit_flit_in} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 11037 -idxfrom 6 -fileIdFrom 0 -lto 11037 -idxto 34 -fileIdTo 0 -selection {send_ports_0_putFlit_flit_in} -selectionId 0 -replace 0
+gui_show_drivers -signal  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_0_putFlit_flit_in[70:0]}
+gui_get_drivers -id Source.1 -signal {CONNECT_testbench_sample.i_top_level.i_mkNetwork.send_ports_0_putFlit_flit_in[70:0]}
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+gui_list_collapse -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core
+gui_list_select -id Data.1 -selected  {  }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.deq[69:0]}   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers_1   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers   }
+gui_list_expand -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers   }
+gui_list_add -id Wave.1 -from Hier.1 { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers } -insertionbar
+gui_list_select -id Wave.1 -selected  { input_arb|flitBuffers   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_routeTable_rt_ifc_banks_banks_rf.ADDR_1[3:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.deq[69:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.deq[69:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_select -id Data.1 -selected  {  }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notFull[1:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notEmpty[1:0]}  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notFull[1:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notEmpty[1:0]} {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notFull[1:0]} } -insertionbar
+gui_marker_move -id  Wave.1 C1 75000
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notEmpty[1:0]}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notEmpty[1:0]}  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notFull[1:0]}   }
+gui_list_select -id Wave.1 -selected  { {New Group}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notFull[1:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.notEmpty[1:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_select -id Data.1 -selected  {  }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.enq_fifo_in   }
+gui_list_select -id Data.1 -selected  {  }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.enq_fifo_in   }
+gui_list_action -id  Data.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.enq_fifo_in
+gui_marker_move -id  Wave.1 C1 6147172
+gui_list_select -id Data.1 -selected  {  }
+gui_list_action -id  Hier.1 CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers
+gui_src_highlight_item -id Source.1 -lfrom 441 -idxfrom 10 -fileIdFrom 0 -lto 441 -idxto 16 -fileIdTo 0 -selection {EN_enq} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 441 -idxfrom 20 -fileIdFrom 0 -lto 441 -idxto 76 -fileIdTo 0 -selection {IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88} -selectionId 0 -replace 0
+gui_marker_move -id  Wave.1 C1 1745000
+gui_marker_move -id  Wave.1 C1 852787
+gui_src_highlight_item -id Source.1 -lfrom 447 -idxfrom 20 -fileIdFrom 0 -lto 447 -idxto 76 -fileIdTo 0 -selection {IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88} -selectionId 0 -replace 0
+gui_list_add -id Wave.1 -from Source.1 { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88 } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 337561
+gui_wv_zoom_timerange -id  Wave.1 0 27669
+gui_zoom -window  Wave.1  -factor 0.5
+gui_zoom -window  Wave.1  -factor 0.5
+gui_zoom -window  Wave.1  -factor 0.5
+gui_zoom -window  Wave.1  -factor 0.5
+gui_src_highlight_item -id Source.1 -lfrom 447 -idxfrom 10 -fileIdFrom 0 -lto 447 -idxto 16 -fileIdTo 0 -selection {EN_enq} -selectionId 0 -replace 0
+gui_list_add -id Wave.1 -from Source.1 { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.EN_enq } -insertionbar
+gui_src_highlight_item -id Source.1 -lfrom 447 -idxfrom 20 -fileIdFrom 0 -lto 447 -idxto 76 -fileIdTo 0 -selection {IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+gui_src_highlight_item -id Source.1 -lfrom 291 -idxfrom 9 -fileIdFrom 0 -lto 291 -idxto 42 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 291 -idxfrom 9 -fileIdFrom 0 -lto 291 -idxto 42 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_do_show_driver_load TopLevel.1
+ package require snpsMisc ; Misc::exec_method -method fwdCmd 
+gui_do_show_driver_load TopLevel.1
+gui_src_highlight_item -id Source.1 -lfrom 383 -idxfrom 1 -fileIdFrom 0 -lto 383 -idxto 34 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 383 -idxfrom 1 -fileIdFrom 0 -lto 383 -idxto 34 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+gui_src_highlight_item -id Source.1 -lfrom 383 -idxfrom 1 -fileIdFrom 0 -lto 383 -idxto 34 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+gui_src_highlight_item -id Source.1 -lfrom 383 -idxfrom 1 -fileIdFrom 0 -lto 383 -idxto 34 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full
+gui_open_source -activate -startline  39 /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/RegFile_1port.v  -openmode macro  -design  Sim
+gui_src_expand -id { Source.1 } -fid  0  -line 45
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_src_highlight_item -id Source.1 -lfrom 383 -idxfrom 1 -fileIdFrom 0 -lto 383 -idxto 34 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full} -selectionId 0 -replace 0
+gui_marker_move -id  Wave.1 C1 49893
+gui_sim_watch { -file  $::env(PWD)/mkInputVCQueues.v  -line  387  }
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 5489816
+gui_sim_watch { -file  $::env(PWD)/mkInputVCQueues.v  -line  391  }
+gui_sim_watch { -disable {1}}
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_src_highlight_item -id Source.1 -lfrom 289 -idxfrom 6 -fileIdFrom 0 -lto 289 -idxto 17 -fileIdTo 0 -selection {enq_fifo_in} -selectionId 0 -replace 0
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_src_highlight_item -id Source.1 -lfrom 447 -idxfrom 20 -fileIdFrom 0 -lto 447 -idxto 76 -fileIdTo 0 -selection {IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+gui_toggle_source_value_annotate Source.1
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_src_highlight_item -id Source.1 -lfrom 290 -idxfrom 9 -fileIdFrom 0 -lto 290 -idxto 44 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full_1} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full_1
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_not_full_1
+gui_toggle_source_value_annotate Source.1
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+package require snpsMisc ; Misc::exec_method -method popCmd 
+ package require snpsMisc ; Misc::exec_method -method fwdCmd 
+gui_wv_zoom_timerange -id  Wave.1 6307070 7355287
+gui_wv_zoom_timerange -id  Wave.1 7053985 7223676
+gui_marker_move -id  Wave.1 C1 7185000
+gui_marker_move -id  Wave.1 C1 7195000
+gui_marker_move -id  Wave.1 C1 7195000
+gui_marker_move -id  Wave.1 C1 7205000
+gui_marker_move -id  Wave.1 C1 7195000
+gui_marker_move -id  Wave.1 C1 7185000
+gui_marker_move -id  Wave.1 C1 7185000
+gui_marker_move -id  Wave.1 C1 7165000
+gui_marker_move -id  Wave.1 C1 7175000
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 5063422 7799447
+gui_wv_zoom_timerange -id  Wave.1 6755963 7529675
+gui_wv_zoom_timerange -id  Wave.1 7118785 7323311
+gui_wv_zoom_timerange -id  Wave.1 7175174 7256063
+gui_marker_move -id  Wave.1 C1 7205000
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.rst_n   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.ADDR_IN[3:0]}  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.ADDR_OUT[3:0]}  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.CLK  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.D_IN[69:0]}  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.D_OUT[69:0]}  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.WE  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.rst_n   }
+gui_list_create_group_when_add -wave -enable
+gui_list_add -id Wave.1 -from Data.1 { {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.ADDR_IN[3:0]} {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.ADDR_OUT[3:0]} CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.CLK {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.D_IN[69:0]} {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.D_OUT[69:0]} CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.WE CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.rst_n } -insertionbar
+gui_marker_move -id  Wave.1 C1 1755000
+gui_marker_move -id  Wave.1 C1 2965000
+gui_marker_move -id  Wave.1 C1 3865000
+gui_marker_move -id  Wave.1 C1 4985000
+gui_marker_move -id  Wave.1 C1 5915000
+gui_marker_move -id  Wave.1 C1 6875000
+gui_marker_move -id  Wave.1 C1 7245000
+gui_marker_move -id  Wave.1 C1 3925000
+gui_marker_move -id  Wave.1 C1 2855000
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 8048176 8847664
+gui_marker_move -id  Wave.1 C1 8681326
+gui_set_pref_value -category {Data} -key {showValueAnnotation} -value {true}
+gui_marker_move -id  Wave.1 C1 8655113
+gui_wv_zoom_timerange -id  Wave.1 8640368 8728836
+gui_wv_zoom_timerange -id  Wave.1 8666782 8681648
+gui_marker_move -id  Wave.1 C1 8669802
+gui_marker_move -id  Wave.1 C1 8669955
+gui_marker_move -id  Wave.1 C1 8670107
+gui_set_time 8670000 -id TopLevel.2
+gui_list_select -id Data.1 -selected  {  }
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+package require snpsMisc ; Misc::exec_method -method popCmd 
+gui_src_highlight_item -id Source.1 -lfrom 447 -idxfrom 20 -fileIdFrom 0 -lto 447 -idxto 76 -fileIdTo 0 -selection {IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 447 -idxfrom 20 -fileIdFrom 0 -lto 447 -idxto 76 -fileIdTo 0 -selection {IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88} -selectionId 0 -replace 0
+gui_show_drivers -signal  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+gui_get_drivers -id Source.1 -signal CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88
+gui_src_highlight_item -id Source.1 -lfrom 290 -idxfrom 9 -fileIdFrom 0 -lto 290 -idxto 44 -fileIdTo 0 -selection {inputVCQueues_ifc_mf_ifc_not_full_1} -selectionId 0 -replace 0
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 0 639590
+gui_wv_zoom_timerange -id  Wave.1 0 145481
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 1755000
+gui_marker_move -id  Wave.1 C1 1385000
+gui_marker_move -id  Wave.1 C1 1385000
+gui_marker_move -id  Wave.1 C1 1755000
+gui_marker_move -id  Wave.1 C1 1385000
+gui_marker_move -id  Wave.1 C1 1755000
+gui_marker_move -id  Wave.1 C1 1385000
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_list_select -id Wave.1 -selected  { Group1   }
+gui_list_select -id Wave.1 -selected  { Group1  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.ADDR_IN[3:0]}  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.ADDR_OUT[3:0]}  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.CLK  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.D_IN[69:0]}  {CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.D_OUT[69:0]}  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.WE  CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.inputVCQueues_ifc_mf_ifc_fifoMem.rst_n   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.write_request   }
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.EN_enq   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_mkNetwork.net_routers_router_core.flitBuffers.IF_enq_fifo_in_THEN_NOT_inputVCQueues_ifc_mf_i_ETC___d88   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_noc_input_controller.num_credits[2:0]}   }
+gui_list_collapse -id  Hier.1   CONNECT_testbench_sample.i_top_level.i_mkNetwork
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.get_credit[1:0]}   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit   }
+gui_list_select -id Data.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.get_credit[1:0]}   }
+gui_list_create_group_when_add -wave -disable
+gui_list_add -id Wave.1 -from Data.1 { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.get_credit[1:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit   }
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit  {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.get_credit[1:0]}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.task_id[31:0]} {{CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.get_credit[1:0]}} 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.put_credits_mapper[1:0]} {{CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.en_get_credit} {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.get_credit[1:0]}} 
+gui_list_select -id Wave.1 -selected  { reducer   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 -current_item_type Scope  -selected  {  }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1   }
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 -current_item_type Scope  -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.put_credits_reducer[1:0]}   }
+gui_list_select -id Data.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.put_credits_reducer[1:0]}  CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.en_put_credits_reducer   }
+gui_list_add -id Wave.1 -from Data.1 { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.en_put_credits_reducer {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.put_credits_reducer[1:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.en_put_credits_reducer   }
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.en_put_credits_reducer  {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.put_credits_reducer[1:0]}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.addr[31:0]} {{CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.en_put_credits_reducer} {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.put_credits_reducer[1:0]}} 
+gui_sim_continue  
+gui_wv_zoom_timerange -id  Wave.1 4335000 15936455
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 1898637 3279464
+gui_marker_move -id  Wave.1 C1 2345000
+gui_marker_move -id  Wave.1 C1 2435000
+gui_marker_move -id  Wave.1 C1 2525000
+gui_marker_move -id  Wave.1 C1 2295000
+gui_marker_move -id  Wave.1 C1 2085000
+gui_marker_move -id  Wave.1 C1 2395000
+gui_marker_move -id  Wave.1 C1 2785000
+gui_marker_move -id  Wave.1 C1 2375000
+gui_marker_move -id  Wave.1 C1 2655000
+gui_marker_move -id  Wave.1 C1 2395000
+gui_zoom -window  Wave.1  -full
+gui_marker_move -id  Wave.1 C1 335000
+gui_marker_move -id  Wave.1 C1 1075000
+gui_marker_move -id  Wave.1 C1 1755000
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_zoom -window  Wave.1  -full
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/session.inter.vpd.tcl
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 634261294 664416348
+gui_wv_zoom_timerange -id  Wave.1 654637129 657684960
+gui_wv_zoom_timerange -id  Wave.1 655549708 655666394
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_zoom -window  Wave.1  -full
+gui_zoom -window  Wave.1  -full
+gui_wv_zoom_timerange -id  Wave.1 395031202 432222435
+gui_wv_zoom_timerange -id  Wave.1 412577782 416108956
+gui_wv_zoom_timerange -id  Wave.1 414569561 414980540
+gui_wv_zoom_timerange -id  Wave.1 414757112 414812496
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Hier.1 -current_item_name CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1 -current_item_type Scope  -selected  {  }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   }
+gui_seek_criteria -id Wave.1 "Value..." 
+gui_seek_value  {the     }
+gui_seek_value  the
+gui_seek_next -id Wave.1 -number 1 
+gui_set_time 0 -id TopLevel.2
+gui_seek_next -id Wave.1 -number 1 
+gui_wv_zoom_timerange -id  Wave.1 0 53273928
+gui_wv_zoom_timerange -id  Wave.1 0 2937001
+gui_wv_zoom_timerange -id  Wave.1 0 422784
+gui_seek_criteria -id Wave.1 "Value..." 
+gui_seek_value  {"the     :}
+gui_seek_criteria -id Wave.1 "Value..." 
+gui_seek_value  {"the     "}
+gui_seek_value  {"the     "}
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_criteria -id Wave.1 "Value..." 
+gui_seek_value  {the\ \ \ \ \ }
+gui_seek_value  the\\\ \\\ \\\ \\\ \\
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_next -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_seek_previous -id Wave.1 -number 1 
+gui_wv_zoom_timerange -id  Wave.1 0 424079
+gui_open_window List
+gui_lst_add -id List.1 {{CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}}
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  -group { Group1 }
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_scroll_vslidermove -id List.1 834266
+gui_lst_scroll_vslidermove -id List.1 0
+gui_lst_scroll_vslidermove -id List.1 0
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  -group { Group1 }
+gui_sim_terminate 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  -group { Group1 }
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_open_source -active CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_open_source -active CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_lst_move  -id  List.1  -after {{CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}}   {   } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.value[63:0]}   } 
+gui_copy_selected -id List.1
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  -group { Group1 }
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_lst_set_selected -id  List.1  { } 
+gui_close_window -window TopLevel.3
+gui_zoom -window  Wave.1  -full
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.index[3:0]}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.word[319:0]}   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.flit_out_mapper[70:0]}   }
+gui_list_select -id Wave.1 -selected  { CONNECT_testbench_sample.i_top_level.i_MapReduceMapper_unq1_1.read_request   }
+gui_list_select -id Wave.1 -selected  { EXP:wordcompare   }
+gui_list_select -id Wave.1 -selected  { {CONNECT_testbench_sample.i_top_level.i_MapReduceReducer_unq1.result[31:0]}   }
+gui_marker_move -id  Wave.1 C1 443929962
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /afs/asu.edu/users/c/f/a/cfarnsw2/datamining/data_mining/src/session.inter.vpd.tcl
+gui_close_window -window TopLevel.2
+#gui_exit
+

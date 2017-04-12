@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at noc_input_controller.v(77): always construct contains both blocking and non-blocking assignments File: C:/Users/Kate/Desktop/Classes/EEE 598/Proyect/data_mining_2mapper/src/noc_input_controller.v Line: 77
+Warning (10268): Verilog HDL information at MapReduceMapper_unq1.v(79): always construct contains both blocking and non-blocking assignments File: C:/Users/Kate/Desktop/Classes/EEE 598/Proyect/data_mining_2mapper/src/MapReduceMapper_unq1.v Line: 79

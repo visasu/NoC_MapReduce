@@ -1,0 +1,82 @@
+{
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ],
+    "module_outport_encoder": [
+        "module_outport_encoder",
+        "n4kEU",
+        "module"
+    ],
+    "_vcs_unit__2274222008": [
+        "_vcs_unit__2274222008",
+        "dI8ID",
+        "module"
+    ],
+    "mkInputVCQueues": [
+        "mkInputVCQueues",
+        "hzHRj",
+        "module"
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module"
+    ],
+    "mkOutPortFIFO": [
+        "mkOutPortFIFO",
+        "j5kNa",
+        "module"
+    ],
+    "mkInputArbiter": [
+        "mkInputArbiter",
+        "KqJpy",
+        "module"
+    ],
+    "mkOutputArbiter": [
+        "mkOutputArbiter",
+        "Z783m",
+        "module"
+    ],
+    "mkRouterCore": [
+        "mkRouterCore",
+        "cpc72",
+        "module"
+    ],
+    "mkRouterInputArbitersStatic": [
+        "mkRouterInputArbitersStatic",
+        "N5WmI",
+        "module"
+    ],
+    "CONNECT_testbench_sample": [
+        "CONNECT_testbench_sample",
+        "ZhgcD",
+        "module"
+    ],
+    "mkRouterOutputArbitersStatic": [
+        "mkRouterOutputArbitersStatic",
+        "puSjB",
+        "module"
+    ],
+    "mkSepRouterAllocator": [
+        "mkSepRouterAllocator",
+        "KN2Wm",
+        "module"
+    ],
+    "noc_input_controller": [
+        "noc_input_controller",
+        "dxs94",
+        "module"
+    ],
+    "MapReduceReducer_unq1": [
+        "MapReduceReducer_unq1",
+        "WtBnj",
+        "module"
+    ],
+    "MapReduceMapper_unq1": [
+        "MapReduceMapper_unq1",
+        "JrLmP",
+        "module"
+    ]
+}

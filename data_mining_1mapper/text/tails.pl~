@@ -1,0 +1,45 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my $infilename = $ENV{NAME} . ".hex";
+my $outfilename = "$infilename.v2";
+my $outfilename2 = "$infilename.tails";
+
+print "Running tails.pl\n";
+
+open(INFILE, "<$infilename") || die("ERROR: could not open input file: $infilename\n");
+open(OUTFILE, ">$outfilename");
+open(OUTFILE2, ">$outfilename2");
+while (<INFILE>) {
+    chomp;
+    my $line = $_;
+    my $linenew;
+    my $lineslice = "";
+    if ((length $line) > 16) {
+        while ((length $line) > 16) {
+            #print substr($line, -16, 16) . "\n";
+            #print OUTFILE substr($line, -16, 16) . "\n";
+            print OUTFILE substr($line, 0, 16) . "\n";
+            for (my $i = 0; $i<(length $line)-16; $i=$i+2) {
+                $lineslice = substr($line, -$i-2, 2);
+                #print "$lineslice\n";
+                $linenew = $lineslice . $linenew;
+            }
+            #print "$linenew\n";
+            $line = $linenew;
+            $linenew = "";
+            print OUTFILE2 "0\n";
+        }
+            print OUTFILE "$line\n";
+            print OUTFILE2 "1\n";
+    } else {
+        print OUTFILE "$line\n";
+        print OUTFILE2 "1\n";
+    }
+}
+
+`mv $outfilename $infilename`;
+exit;
+
